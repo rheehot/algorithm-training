@@ -21,6 +21,11 @@ public class KangarooTest {
     }
 
 
+    /**
+     * t = 점프 횟 수
+     * x1 + t * v1 = x2 + t * v2
+     *
+     */
     @Test
     public void test2() {
         int x1 = 21, v1 = 6, x2 =47, v2 = 3;
