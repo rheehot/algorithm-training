@@ -57,13 +57,16 @@ public class InsertANodeAtTheTailOfALinkedList {
             // 아래 while 문에서 node.next를 node에 대입하여 즉 1번노드 -> 2번노드 -> 3번 노드(next가 null 즉 맨마지막이다)까지 찾는다
             // SinglyLinkedListNode node = head; <= 이구문은 문젱서 첫번째 노드를 반환 해야 되서 첫번째 노드인 head는 배번 리턴하도록하고
             // head를 node에 대입 해서 node를 맨마지막 까지 찾아서 신규 노드를 추가하는 작업을 한다. 그리고 첫번째 노드은 head를 항상 반환한다.
-            SinglyLinkedListNode node = head;
-            while (node.next != null) {
+            SinglyLinkedListNode pointer = head;
 
-                node = node.next;
-                System.out.println("node.data = " + node.data);
+            while (pointer.next != null) {
+
+                pointer = pointer.next;
+                System.out.println("pointer.data = " + pointer.data);
+
             }
-            node.next = newNode;
+
+            pointer.next = newNode;
         }
 
         return head;
