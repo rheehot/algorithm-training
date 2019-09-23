@@ -1,10 +1,9 @@
 package test.java.datastructure;
 
-import main.java.datastructure.PrintTheElementsOfALinkedList;
 import org.junit.Test;
 
-import static main.java.datastructure.PrintTheElementsOfALinkedList.*;
-import static org.junit.Assert.*;
+import static main.java.datastructure.PrintTheElementsOfALinkedList.SinglyLinkedList;
+import static main.java.datastructure.PrintTheElementsOfALinkedList.printLinkedList;
 
 public class PrintTheElementsOfALinkedListTest {
 
