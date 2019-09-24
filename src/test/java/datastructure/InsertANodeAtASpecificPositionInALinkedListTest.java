@@ -1,11 +1,13 @@
 package test.java.datastructure;
 
+import main.java.LinkedList;
 import main.java.datastructure.InsertANodeAtASpecificPositionInALinkedList;
 import org.junit.Test;
 
+import static main.java.datastructure.InsertANodeAtASpecificPositionInALinkedList.insertNodeAtPosition;
 import static org.junit.Assert.assertEquals;
 
-public class InsertANodeAtASpecificPositionInALinkedListTest {
+public class InsertANodeAtASpecificPositionInALinkedListTest extends LinkedList {
 
     @Test
     public void test() {
@@ -16,14 +18,14 @@ public class InsertANodeAtASpecificPositionInALinkedListTest {
         int insertData = 1;
         int position = 2;
 
-        InsertANodeAtASpecificPositionInALinkedList.SinglyLinkedList singlyLinkedList = new InsertANodeAtASpecificPositionInALinkedList.SinglyLinkedList();
+        SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
 
         for (int i = 0; i < linkedListItems.length; i++) {
             singlyLinkedList.insertNode(linkedListItems[i]);
         }
 
         //When
-        InsertANodeAtASpecificPositionInALinkedList.SinglyLinkedListNode singlyLinkedListNode = InsertANodeAtASpecificPositionInALinkedList.insertNodeAtPosition(singlyLinkedList.head, insertData, position);
+        SinglyLinkedListNode singlyLinkedListNode = insertNodeAtPosition(singlyLinkedList.head, insertData, position);
 
 
         //Then

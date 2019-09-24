@@ -1,21 +1,24 @@
 package test.java.datastructure;
 
+import main.java.LinkedList;
 import main.java.datastructure.InsertANodeAtTheHeadOfALikedList;
 import org.junit.Test;
 
+import static main.java.datastructure.InsertANodeAtTheHeadOfALikedList.insertNodeAtHead;
 import static org.junit.Assert.assertEquals;
 
-public class InsertANodeAtTheHeadOfALikedListTest {
+public class InsertANodeAtTheHeadOfALikedListTest extends LinkedList {
 
     @Test
     public void test() {
         //Given
         int[] linkedListItems = {1, 2, 3, 4, 5};
-        InsertANodeAtTheHeadOfALikedList.SinglyLinkedList singlyLinkedList = new InsertANodeAtTheHeadOfALikedList.SinglyLinkedList();
+        SinglyLinkedList singlyLinkedList = new SinglyLinkedList();
+
 
         //When
         for (int i = 0; i < linkedListItems.length; i++) {
-            InsertANodeAtTheHeadOfALikedList.SinglyLinkedListNode node = InsertANodeAtTheHeadOfALikedList.insertNodeAtHead(singlyLinkedList.head, linkedListItems[i]);
+            SinglyLinkedListNode node = insertNodeAtHead(singlyLinkedList.head, linkedListItems[i]);
             singlyLinkedList.head = node;
         }
 

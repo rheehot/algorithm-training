@@ -1,5 +1,6 @@
 package test.java.datastructure;
 
+import main.java.LinkedList;
 import main.java.datastructure.InsertANodeAtTheTailOfALinkedList;
 import org.junit.Test;
 
@@ -10,38 +11,19 @@ import static main.java.datastructure.InsertANodeAtTheTailOfALinkedList.printSin
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
-public class InsertANodeAtTheTailOfALinkedListTest {
+public class InsertANodeAtTheTailOfALinkedListTest extends LinkedList{
 
 
     @Test
     public void test() {
         //Given
-        InsertANodeAtTheTailOfALinkedList.SinglyLinkedList llist = new InsertANodeAtTheTailOfALinkedList.SinglyLinkedList();
+        SinglyLinkedList llist = new SinglyLinkedList();
 
         //When
-        InsertANodeAtTheTailOfALinkedList.SinglyLinkedListNode singlyLinkedListNode = insertNodeAtTail(llist.head, 12);
+        SinglyLinkedListNode singlyLinkedListNode = insertNodeAtTail(llist.head, 12);
 
         //Then
 
-        assertThat("result = ", singlyLinkedListNode, is(12));
+        assertThat("result = ", singlyLinkedListNode.data, is(12));
     }
-
-    @Test
-    public void test2() {
-
-        int[] llistItem = {1, 2, 3, 4, 5, 6, 7};
-        InsertANodeAtTheTailOfALinkedList.SinglyLinkedList llist = new InsertANodeAtTheTailOfALinkedList.SinglyLinkedList();
-
-        for (int i = 0; i < llistItem.length; i++) {
-
-            InsertANodeAtTheTailOfALinkedList.SinglyLinkedListNode llist_head = insertNodeAtTail(llist.head, llistItem[i]);
-
-            llist.head = llist_head;
-
-        }
-
-        System.out.println("list.head.data = "+llist.head.next);
-
-    }
-
 }

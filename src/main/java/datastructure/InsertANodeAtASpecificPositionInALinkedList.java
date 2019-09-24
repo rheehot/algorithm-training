@@ -1,55 +1,11 @@
 package main.java.datastructure;
 
-import java.io.BufferedWriter;
-import java.io.IOException;
+import main.java.LinkedList;
 
 /**
  * 링크드리스트의 특정 포지션에 새노드를 껴넣는다.
  */
-public class InsertANodeAtASpecificPositionInALinkedList {
-    public static class SinglyLinkedListNode {
-        public int data;
-        public SinglyLinkedListNode next;
-
-        public SinglyLinkedListNode(int nodeData) {
-            this.data = nodeData;
-            this.next = null;
-        }
-    }
-
-    public static class SinglyLinkedList {
-        public SinglyLinkedListNode head;
-        public SinglyLinkedListNode tail;
-
-        public SinglyLinkedList() {
-            this.head = null;
-            this.tail = null;
-        }
-
-        public void insertNode(int nodeData) {
-            SinglyLinkedListNode node = new SinglyLinkedListNode(nodeData);
-
-            if (this.head == null) {
-                this.head = node;
-            } else {
-                this.tail.next = node;
-            }
-
-            this.tail = node;
-        }
-    }
-
-    public static void printSinglyLinkedList(SinglyLinkedListNode node, String sep, BufferedWriter bufferedWriter) throws IOException {
-        while (node != null) {
-            bufferedWriter.write(String.valueOf(node.data));
-
-            node = node.next;
-
-            if (node != null) {
-                bufferedWriter.write(sep);
-            }
-        }
-    }
+public class InsertANodeAtASpecificPositionInALinkedList extends LinkedList {
 
     public static SinglyLinkedListNode insertNodeAtPosition(SinglyLinkedListNode node, int data, int insertPosition) {
 

@@ -1,32 +1,14 @@
 package main.java.datastructure;
 
+import main.java.LinkedList;
+
 import java.io.BufferedWriter;
 import java.io.IOException;
 
 /**
  * 링크드 리스트의 마지막에 꼬리에 새노드를 껴넣는다
  */
-public class InsertANodeAtTheTailOfALinkedList {
-
-    public static class SinglyLinkedListNode {
-        public int data;
-        public SinglyLinkedListNode next;
-
-        public SinglyLinkedListNode(int nodeData) {
-            this.data = nodeData;
-            this.next = null;
-        }
-    }
-
-    public static class SinglyLinkedList {
-        public SinglyLinkedListNode head;
-
-        public SinglyLinkedList() {
-            this.head = null;
-        }
-
-
-    }
+public class InsertANodeAtTheTailOfALinkedList extends LinkedList {
 
     public static void printSinglyLinkedList(SinglyLinkedListNode node, String sep, BufferedWriter bufferedWriter) throws IOException {
         while (node != null) {
