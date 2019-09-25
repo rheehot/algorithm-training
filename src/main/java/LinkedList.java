@@ -36,7 +36,7 @@ public class LinkedList {
         }
     }
 
-    public SinglyLinkedList createLikedList(int[] items) {
+    public static SinglyLinkedList createLikedList(int[] items) {
         SinglyLinkedList llist = new SinglyLinkedList();
 
         for (int i = 0; i < items.length; i++) {
@@ -45,5 +45,9 @@ public class LinkedList {
         }
 
         return llist;
+    }
+
+    public static String getData(SinglyLinkedListNode node) {
+        return (node == null) ? " " : String.valueOf(node.data);
     }
 }
