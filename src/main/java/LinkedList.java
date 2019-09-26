@@ -1,6 +1,7 @@
 package main.java;
 
-import main.java.datastructure.DeleteNode;
+import java.util.ArrayList;
+import java.util.List;
 
 public class LinkedList {
 
@@ -34,6 +35,7 @@ public class LinkedList {
 
             this.tail = node;
         }
+
     }
 
     public static SinglyLinkedList createLikedList(int[] items) {
@@ -47,7 +49,19 @@ public class LinkedList {
         return llist;
     }
 
+
+
     public static String getData(SinglyLinkedListNode node) {
         return (node == null) ? " " : String.valueOf(node.data);
+    }
+
+    public int[] toArrays(SinglyLinkedListNode head) {
+        List<Integer> items = new ArrayList<>();
+        while (head != null) {
+            System.out.println("DATA = "+head.data);
+            items.add(head.data);
+            head = head.next;
+        }
+        return items.stream().mapToInt(Integer::intValue).toArray();
     }
 }
