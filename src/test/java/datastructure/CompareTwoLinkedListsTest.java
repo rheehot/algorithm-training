@@ -1,20 +1,20 @@
 package test.java.datastructure;
 
-import main.java.LinkedList;
+import main.java.LinkedListUtil;
 import main.java.datastructure.CompareTwoLinkedLists;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class CompareTwoLinkedListsTest extends LinkedList {
+public class CompareTwoLinkedListsTest extends LinkedListUtil {
 
     @Test
     public void test() {
         //Given
         int[] firstLinkedListItems = {1, 2};
         int[] secondLinkedListItems = {1};
-        SinglyLinkedList firstLikedList = createLikedList(firstLinkedListItems);
-        SinglyLinkedList secondLinkedList = createLikedList(secondLinkedListItems);
+        SinglyLinkedList firstLikedList = createLikedList(firstLinkedListItems, new SinglyLinkedList());
+        SinglyLinkedList secondLinkedList = createLikedList(secondLinkedListItems, new SinglyLinkedList());
 
         //When
         boolean results = CompareTwoLinkedLists.compareLists(firstLikedList.head, secondLinkedList.head);
@@ -29,8 +29,8 @@ public class CompareTwoLinkedListsTest extends LinkedList {
         //Given
         int[] firstLinkedListItems = {1, 2};
         int[] secondLinkedListItems = {1, 2};
-        SinglyLinkedList firstLikedList = createLikedList(firstLinkedListItems);
-        SinglyLinkedList secondLinkedList = createLikedList(secondLinkedListItems);
+        SinglyLinkedList firstLikedList = createLikedList(firstLinkedListItems, new SinglyLinkedList());
+        SinglyLinkedList secondLinkedList = createLikedList(secondLinkedListItems, new SinglyLinkedList());
 
         //When
         boolean results = CompareTwoLinkedLists.compareLists(firstLikedList.head, secondLinkedList.head);

@@ -1,10 +1,8 @@
 package main.java.datastructure;
 
-import com.sun.org.apache.xml.internal.serializer.utils.StringToIntTable;
-import com.sun.xml.internal.ws.util.StringUtils;
-import main.java.LinkedList;
+import main.java.LinkedListUtil;
 
-public class MergeTwoSortedLinkedLists extends LinkedList {
+public class MergeTwoSortedLinkedListsUtil extends LinkedListUtil {
     public static SinglyLinkedListNode mergeLists(SinglyLinkedListNode head1, SinglyLinkedListNode head2) {
         System.out.println("call mergeList head1 = " + getData(head1) + ", head2 = " + getData(head2));
 

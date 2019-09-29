@@ -1,11 +1,11 @@
 package main.java.datastructure;
 
-import main.java.LinkedList;
+import main.java.LinkedListUtil;
 
 /**
  * 특점 위치의 노드 삭제하기
  */
-public class DeleteNode extends LinkedList {
+public class DeleteNode extends LinkedListUtil {
 
     public static SinglyLinkedListNode deleteNode(SinglyLinkedListNode head, int position) {
         SinglyLinkedListNode pointer = head;

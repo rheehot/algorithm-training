@@ -1,6 +1,6 @@
 package main.java.datastructure;
 
-import main.java.LinkedList;
+import main.java.LinkedListUtil;
 
 /**
  * 링크드 리스트가 tail -> null 이 아니고 다시 앞의 노드를 next로 가지고 있으면 순환인데 이런 경우 true 리턴
@@ -20,7 +20,7 @@ import main.java.LinkedList;
  * head의 next           2(1의 next)                  3 (2의 next)
  * pointer의 next next   3(1의 next.next)             3 (3의 next.next 3 -> 2 -> 3)
  * */
-public class CycleDetection extends LinkedList {
+public class CycleDetection extends LinkedListUtil {
     public static boolean hasCycle(SinglyLinkedListNode head) {
         SinglyLinkedListNode pointer = head;
 

@@ -1,18 +1,17 @@
 package test.java.datastructure;
 
-import main.java.datastructure.PrintInReverse;
 import org.junit.Test;
-import main.java.LinkedList;
+import main.java.LinkedListUtil;
 
 import static main.java.datastructure.PrintInReverse.*;
 
-public class PrintInReverseTest extends LinkedList {
+public class PrintInReverseTest extends LinkedListUtil {
 
     @Test
     public void test() {
         //Given
         int[] items = {16, 12, 4, 2, 5};
-        SinglyLinkedList llist = createLikedList(items);
+        SinglyLinkedList llist = createLikedList(items, new SinglyLinkedList());
 
         //When
         reversePrint(llist.head);

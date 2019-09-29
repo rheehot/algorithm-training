@@ -1,6 +1,6 @@
 package main.java.datastructure;
 
-import main.java.LinkedList;
+import main.java.LinkedListUtil;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.io.IOException;
 /**
  * 링크드 리스트의 마지막에 꼬리에 새노드를 껴넣는다
  */
-public class InsertANodeAtTheTailOfALinkedList extends LinkedList {
+public class InsertANodeAtTheTailOfALinkedList extends LinkedListUtil {
 
     public static void printSinglyLinkedList(SinglyLinkedListNode node, String sep, BufferedWriter bufferedWriter) throws IOException {
         while (node != null) {

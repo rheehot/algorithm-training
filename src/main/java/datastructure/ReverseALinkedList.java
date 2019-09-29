@@ -1,11 +1,11 @@
 package main.java.datastructure;
 
-import main.java.LinkedList;
+import main.java.LinkedListUtil;
 
 /**
  * 링크드 리스트 역순
  */
-public class ReverseALinkedList extends LinkedList {
+public class ReverseALinkedList extends LinkedListUtil {
 
     public static SinglyLinkedListNode reverse(SinglyLinkedListNode head) {
         SinglyLinkedListNode pointer = head;

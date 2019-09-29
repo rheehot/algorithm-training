@@ -1,6 +1,6 @@
 package main.java.datastructure;
 
-import main.java.LinkedList;
+import main.java.LinkedListUtil;
 
 /**
  * 두 링크드 리스트를 비교하여 같으면 1아니면 0 리턴
@@ -8,7 +8,7 @@ import main.java.LinkedList;
  * 문제에서 햇갈리는데 첫번째 라인은 테스트 케이스가 2개라는 것이고 그다음이 첫번째 링크드 리스트의 요소수이다
  * 첫번째 라인이 첫번째 링크드 리스트의 요소수로 생각하면 햇갈린다 문제가 좀.....
  */
-public class CompareTwoLinkedLists extends LinkedList {
+public class CompareTwoLinkedLists extends LinkedListUtil {
     public static boolean compareLists(SinglyLinkedListNode firstHead, SinglyLinkedListNode secondHead) {
 
         /**

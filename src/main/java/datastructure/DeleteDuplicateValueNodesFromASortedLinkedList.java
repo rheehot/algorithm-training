@@ -1,11 +1,11 @@
 package main.java.datastructure;
 
-import main.java.LinkedList;
+import main.java.LinkedListUtil;
 
 /**
  * 중복된 노드를 제거한
  */
-public class DeleteDuplicateValueNodesFromASortedLinkedList extends LinkedList {
+public class DeleteDuplicateValueNodesFromASortedLinkedList extends LinkedListUtil {
 
     /**
      * 재귀적으로 해

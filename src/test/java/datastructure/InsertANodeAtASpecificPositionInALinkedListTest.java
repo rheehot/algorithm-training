@@ -1,13 +1,12 @@
 package test.java.datastructure;
 
-import main.java.LinkedList;
-import main.java.datastructure.InsertANodeAtASpecificPositionInALinkedList;
+import main.java.LinkedListUtil;
 import org.junit.Test;
 
 import static main.java.datastructure.InsertANodeAtASpecificPositionInALinkedList.insertNodeAtPosition;
 import static org.junit.Assert.assertEquals;
 
-public class InsertANodeAtASpecificPositionInALinkedListTest extends LinkedList {
+public class InsertANodeAtASpecificPositionInALinkedListTest extends LinkedListUtil {
 
     @Test
     public void test() {

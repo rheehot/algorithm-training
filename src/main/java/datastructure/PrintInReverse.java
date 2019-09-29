@@ -1,8 +1,8 @@
 package main.java.datastructure;
 
-import main.java.LinkedList;
+import main.java.LinkedListUtil;
 
-public class PrintInReverse extends LinkedList {
+public class PrintInReverse extends LinkedListUtil {
 
     public static void reversePrint(SinglyLinkedListNode head) {
         if (head == null) {

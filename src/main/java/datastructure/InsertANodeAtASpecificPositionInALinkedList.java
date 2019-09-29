@@ -1,11 +1,11 @@
 package main.java.datastructure;
 
-import main.java.LinkedList;
+import main.java.LinkedListUtil;
 
 /**
  * 링크드리스트의 특정 포지션에 새노드를 껴넣는다.
  */
-public class InsertANodeAtASpecificPositionInALinkedList extends LinkedList {
+public class InsertANodeAtASpecificPositionInALinkedList extends LinkedListUtil {
 
     public static SinglyLinkedListNode insertNodeAtPosition(SinglyLinkedListNode node, int data, int insertPosition) {
 

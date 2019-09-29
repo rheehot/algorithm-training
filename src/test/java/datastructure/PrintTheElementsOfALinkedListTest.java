@@ -1,12 +1,12 @@
 package test.java.datastructure;
 
-import main.java.LinkedList;
+import main.java.LinkedListUtil;
 import org.junit.Test;
 
 import static main.java.datastructure.PrintTheElementsOfALinkedList.printLinkedList;
 
 
-public class PrintTheElementsOfALinkedListTest extends LinkedList {
+public class PrintTheElementsOfALinkedListTest extends LinkedListUtil {
 
     @Test
     public void test() {

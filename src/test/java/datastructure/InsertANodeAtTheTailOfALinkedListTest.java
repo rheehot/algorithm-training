@@ -1,17 +1,13 @@
 package test.java.datastructure;
 
-import main.java.LinkedList;
-import main.java.datastructure.InsertANodeAtTheTailOfALinkedList;
+import main.java.LinkedListUtil;
 import org.junit.Test;
 
-import java.util.Random;
-
 import static main.java.datastructure.InsertANodeAtTheTailOfALinkedList.insertNodeAtTail;
-import static main.java.datastructure.InsertANodeAtTheTailOfALinkedList.printSinglyLinkedList;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
-public class InsertANodeAtTheTailOfALinkedListTest extends LinkedList{
+public class InsertANodeAtTheTailOfALinkedListTest extends LinkedListUtil {
 
 
     @Test

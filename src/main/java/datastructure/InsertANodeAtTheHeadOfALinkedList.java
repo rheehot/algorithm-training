@@ -1,14 +1,11 @@
 package main.java.datastructure;
 
-import main.java.LinkedList;
-
-import java.io.BufferedWriter;
-import java.io.IOException;
+import main.java.LinkedListUtil;
 
 /**
  * 링크드 리스트의 head에 새노드를 껴넣는다.
  */
-public class InsertANodeAtTheHeadOfALikedList extends LinkedList {
+public class InsertANodeAtTheHeadOfALinkedList extends LinkedListUtil {
 
     /**
      * 노드가 null 이면 새 노드를 생성 (첫번째 노드라는 이야기)

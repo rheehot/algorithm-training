@@ -1,6 +1,6 @@
 package main.java.datastructure;
 
-import main.java.LinkedList;
+import main.java.LinkedListUtil;
 
 /**
  * tail 로 부터 특정 위치의 값을 가져 온다
@@ -15,7 +15,7 @@ import main.java.LinkedList;
  * 5번 다 돌고 난후 다시 3번을 도는게 아니고 위치 2번 까지 돌다가 남은 수 3부터 시작 할때 3 4 5 번을 돌게 될텐데 그때부터 시작하는 것임
  * 투트랙인 셈이다.
  */
-public class GetNodeValue extends LinkedList {
+public class GetNodeValue extends LinkedListUtil {
     public static int getNode(SinglyLinkedListNode head, int positionFromTail) {
         int valueNodeIndex = 0;
         SinglyLinkedListNode pointer = head;

@@ -1,23 +1,23 @@
 package test.java.datastructure;
 
-import main.java.LinkedList;
-import main.java.datastructure.MergeTwoSortedLinkedLists;
+import main.java.LinkedListUtil;
+import main.java.datastructure.MergeTwoSortedLinkedListsUtil;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class MergeTwoSortedLinkedListsTest extends LinkedList {
+public class MergeTwoSortedLinkedListsTest extends LinkedListUtil {
 
     @Test
     public void test() {
         int[] firstLinkedListItems = {1, 2,3};
         int[] secondLinkedListItems = {3, 4};
-        SinglyLinkedList firstLikedList = createLikedList(firstLinkedListItems);
-        SinglyLinkedList secondLinkedList = createLikedList(secondLinkedListItems);
+        SinglyLinkedList firstLikedList = createLikedList(firstLinkedListItems, new SinglyLinkedList());
+        SinglyLinkedList secondLinkedList = createLikedList(secondLinkedListItems, new SinglyLinkedList());
         int[] expected = {1, 2, 3, 3, 4};
 
         //When
-        SinglyLinkedListNode results = MergeTwoSortedLinkedLists.mergeLists(firstLikedList.head, secondLinkedList.head);
+        SinglyLinkedListNode results = MergeTwoSortedLinkedListsUtil.mergeLists(firstLikedList.head, secondLinkedList.head);
 
 
         //Then

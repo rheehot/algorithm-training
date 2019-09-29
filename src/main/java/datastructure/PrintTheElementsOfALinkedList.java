@@ -1,8 +1,8 @@
 package main.java.datastructure;
 
-import main.java.LinkedList;
+import main.java.LinkedListUtil;
 
-public class PrintTheElementsOfALinkedList extends LinkedList {
+public class PrintTheElementsOfALinkedList extends LinkedListUtil {
 
 
     public static void printLinkedList(SinglyLinkedListNode head) {
