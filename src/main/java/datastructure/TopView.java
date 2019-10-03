@@ -44,7 +44,7 @@ public class TopView {
         }
     }
 
-    public static void topView2(Node root) {
+    public static void topView(Node root) {
 
         Queue<QueueNode> queue = new LinkedList<>();
         TreeMap<Integer, Integer> mapData = new TreeMap<>();
