@@ -3,7 +3,7 @@ package main.java.datastructure;
 import main.java.Node;
 
 /**
- * 전위탐색 즉 root -> left -> right
+ * 전위탐색 즉 root -> left(-> left 자식이 없을때 까지) -> right
  *      1
  *        2
  *          5
