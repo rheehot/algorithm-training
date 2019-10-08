@@ -1,7 +1,5 @@
 package test.java.datastructure;
 
-import main.java.TreeUtil;
-
 import main.java.datastructure.SelfBalancingTree;
 import org.junit.Test;
 
@@ -10,7 +8,7 @@ public class SelfBalancingTreeTest {
     @Test
     public void test() {
         //Given
-        SelfBalancingTree.Node root = new SelfBalancingTree.Node(3);
+        SelfBalancingTree.Node root = new SelfBalancingTree.Node(5);
         root.left = new SelfBalancingTree.Node(2);
         root.right = new SelfBalancingTree.Node(4);
         root.right.right = new SelfBalancingTree.Node(5);
@@ -20,6 +18,7 @@ public class SelfBalancingTreeTest {
 
         SelfBalancingTree.printInOrder(node);
 
+        System.out.println("d = "+ (-1 - 1));
         //Then
     }
 
@@ -35,8 +34,7 @@ public class SelfBalancingTreeTest {
 
         //When
         SelfBalancingTree.Node node = SelfBalancingTree.rotateRight(root);
-        SelfBalancingTree.levelOrder(node);
-        //Then
+        SelfBalancingTree.printInOrder(node);
     }
 
 }
