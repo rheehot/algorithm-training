@@ -1,4 +1,4 @@
-package test.java.datastructure;
+package test.java.algorithms;
 
 import main.java.algorithms.DivisibleSumPairs;
 import org.junit.Test;
