@@ -1,6 +1,6 @@
-package test.java.datastructure;
+package test.java.interviewkit.arrays;
 
-import main.java.datastructure.LeftRotation;
+import main.java.interviewkit.arrays.LeftRotation;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -15,7 +15,7 @@ public class LeftRotationTest {
         int[] expected = {5, 1, 2, 3, 4};
 
         //When
-        int[] result = LeftRotation.leftRotation(n, input);
+        int[] result = LeftRotation.leftRotation(input, n);
 
         //Then
         assertArrayEquals(expected, result);

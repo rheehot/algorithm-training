@@ -30,20 +30,15 @@ package main.java.algorithms;
  *
  * 등비수열에서 원래 수열 짝수 번째는 -2 대신 -1 하면 된다
  *
- *
+ * 즉 n이 0일 때 1리턴
+ * n이 홀수이면 ar^((n+1)/2) - 2 = 2 *( 2^((n+1)/2) -2
+ * n이 짝수이면 ar^((n+1)/2) - 1 = 2 *( 2^((n+1)/2) -1
  *
  *
  */
 public class UtopianTree {
     public static int utopianTree(int n) {
-
-        if(n == 0) return 1;
-
-        if (n % 2 != 0) {
-            return (int) (2 * Math.pow(2, (n + 1) / 2)) - 2;
-        } else {
-            return (int) (2 * Math.pow(2, (n + 1) / 2)) - 1;
-        }
+        return (int) (2 * Math.pow(2, (n + 1) / 2)) - ((n % 2) + 1);
     }
 
 }
