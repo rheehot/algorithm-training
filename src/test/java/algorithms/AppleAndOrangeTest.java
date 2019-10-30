@@ -18,10 +18,4 @@ public class AppleAndOrangeTest {
         AppleAndOrange.countApplesAndOranges(samHouseStart, samHouseEnd, appleTreeLocation, orangeTreeLocation, apples, oranges);
     }
 
-
-    @Test
-    public void test2() {
-
-    }
-
 }
