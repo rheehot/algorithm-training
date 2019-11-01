@@ -2,7 +2,10 @@ package test.java.functions;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -40,7 +43,30 @@ public class convertTypeTest {
 
         String reversedStr2 = Stream.of(str.split("")).sorted().collect(Collectors.joining());
         System.out.println(reversedStr2);
+    }
 
+    @Test
+    public void 리스트를_한라인에_초기화_생성() {
+        List<Integer> inputs = Arrays.asList(1, 3, 9, 9, 27, 81);
 
+        inputs.forEach(v -> System.out.println(v));
+    }
+
+    @Test
+    public void 리스트를_한라인에_초기화_생성_Long() {
+        List<Long> inputs = new ArrayList<>(Arrays.asList(1L, 3L, 9L, 9L, 27L, 81L));
+
+        inputs.forEach(v -> System.out.println(v));
+    }
+
+    /**
+     *  https://www.baeldung.com/java-stream-sum
+     */
+    @Test
+    public void 배열의_요소를_SUM() {
+        List<Integer> inputs = Arrays.asList(1, 3, 9, 9, 27, 81);
+        int sum = inputs.stream().mapToInt(Integer::intValue).sum();
+
+        System.out.println(sum);
     }
 }
