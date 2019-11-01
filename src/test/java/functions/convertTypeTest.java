@@ -19,6 +19,15 @@ public class convertTypeTest {
         System.out.println(collect);
     }
 
+    @Test
+    public void 문자배열을_숫자로_변경() {
+        String s = "1 2 3 4 5";
+        int[] s1 = Arrays.stream(s.split(" ")).mapToInt(Integer::parseInt).toArray();
+        for (int a : s1) {
+            System.out.println(a);
+        }
+    }
+
     /**
      * https://www.baeldung.com/convert-array-to-set-and-set-to-array
      */
