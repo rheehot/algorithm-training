@@ -37,11 +37,14 @@ public class MapTest {
         //map.compute(2, (k, v) -> v+2);
 
         // key 1이 있으면 함수를 실행한다
-        map.computeIfPresent(1, (k, v) -> ++v);
-        System.out.println("computeIfPresent 1 = "+map.get(1));
+        Integer computeIfPresent = map.computeIfPresent(1, (k, v) -> ++v);
+        System.out.println("computeIfPresent 1 = "+computeIfPresent);
 
-        // key 2가 없으면 2에 null 값을 저장한다  즉 key 가 생생되는 것
-        map.computeIfPresent(2, (k, v) -> ++v);
+        // key 2가 없으면 수행하지 않는다.
+        map.computeIfPresent(2, (k, v) -> {
+            System.out.println("dssfdsf"+v);
+            return v;
+        });
         System.out.println("computeIfPresent 2 = "+map.get(2));
 
         // key 3이 없는 경우 메소드를 실행한다. 즉 key 없으면 0 key을 새로 만들고 0을 입력한다.
@@ -59,7 +62,6 @@ public class MapTest {
         // Key 2 가 없으면 설정값 5를 입력한다.
         map.merge(2, 5, (originalValue, isNullValue) -> originalValue+isNullValue);
         System.out.println("merge 2 = "+map.get(2));
-
 
     }
 }
