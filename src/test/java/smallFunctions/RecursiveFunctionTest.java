@@ -1,8 +1,6 @@
-package test.java;
+package test.java.smallFunctions;
 
 import org.junit.Test;
-
-import java.util.Random;
 
 public class RecursiveFunctionTest {
 

@@ -1,13 +1,11 @@
-package test.java.functions;
+package test.java.smallFunctions;
 
 import org.junit.Test;
-
-import java.util.Arrays;
 
 /**
  * https://www.baeldung.com/java-sorting-arrays
  */
-public class sortingTest {
+public class SortingTest {
 
     @Test
     public void test() {

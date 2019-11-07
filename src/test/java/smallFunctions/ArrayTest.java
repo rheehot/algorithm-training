@@ -1,13 +1,11 @@
-package test.java.functions;
+package test.java.smallFunctions;
 
 import org.junit.Test;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
-public class arrayTest {
+public class ArrayTest {
     /**
      * https://www.baeldung.com/java-array-copy
      */
@@ -28,5 +26,12 @@ public class arrayTest {
         int[] array = {23, 43, 55, 12, 65, 88, 92};
         int asInt = Arrays.stream(array).max().getAsInt();
         System.out.println(asInt);
+    }
+
+    @Test
+    public void 스트림_배열에서_절대값_합산_하기() {
+        int[] arr = {1, 2, -3, 4 - 5, 10};
+        int sum = Arrays.stream(arr).map(Math::abs).sum();
+        System.out.println(sum);
     }
 }

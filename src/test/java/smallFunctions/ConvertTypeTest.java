@@ -1,4 +1,4 @@
-package test.java.functions;
+package test.java.smallFunctions;
 
 import org.junit.Test;
 
@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class convertTypeTest {
+public class ConvertTypeTest {
 
     @Test
     public void STRING을_아스키로_변환_STRING으로_다시합치기() {

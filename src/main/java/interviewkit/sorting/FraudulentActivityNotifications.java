@@ -3,6 +3,7 @@ package main.java.interviewkit.sorting;
 import java.util.Arrays;
 
 /**
+ * level:hard
  * https://www.hackerrank.com/challenges/fraudulent-activity-notifications/
  *
  * 2 3 4 2 3 6 8 4 5
