@@ -58,9 +58,7 @@ public class SherlockAndAnagrams {
                         .split(""))
                         .sorted()
                         .collect(Collectors.joining());
-                Integer strCount = dic.get(str);
-
-                dic.put(str, strCount != null ? strCount + 1 : 1);
+                dic.merge(str, 1, (c, d) -> c + 1);
             }
         }
 
