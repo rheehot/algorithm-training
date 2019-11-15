@@ -6,6 +6,13 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 
 public class ArrayTest {
+
+    @Test
+    public void 배열선언후_특정값_전부_채우기() {
+        int[] arr = new int[10];
+        Arrays.fill(arr, 1);
+    }
+
     /**
      * https://www.baeldung.com/java-array-copy
      */
@@ -33,5 +40,10 @@ public class ArrayTest {
         int[] arr = {1, 2, -3, 4 - 5, 10};
         int sum = Arrays.stream(arr).map(Math::abs).sum();
         System.out.println(sum);
+    }
+    @Test
+    public void CHAR_배열_스트림() {
+        String s = "AAAAAAAA";
+        s.chars().forEach(v -> System.out.println((char) v));
     }
 }

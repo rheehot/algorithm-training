@@ -32,7 +32,6 @@ class Pair {
     }
 }
 
-//abcbaba
 public class SpecialStringAgain {
     public static long substrCount(int n, String s) {
         long count = 1;
