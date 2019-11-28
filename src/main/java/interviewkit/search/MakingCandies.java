@@ -60,30 +60,29 @@ public class MakingCandies {
         long days = Long.MAX_VALUE;
         long currentDays = 0;
         long candies = 0;
+        boolean loop = true;
 
-        while (true) {
+        while (loop) {
 
             long remainCandies = n - candies;
             long makeCandies = m * w;
-            long remainPass = remainCandies / makeCandies + (remainCandies % makeCandies == 0 ? 0 : 1);
-            days = Math.min(days, currentDays + remainPass);
+            long remainDays = remainCandies / makeCandies + (remainCandies % makeCandies == 0 ? 0 : 1);
+            days = Math.min(days, currentDays + remainDays);
 
-            if (remainPass == 1) {
-                break;
-            }
+            if (remainDays == 1) loop = false;
 
-            if (candies < p) {
+
+            if ( p > candies) {
                 long remainPurchase = p - candies;
-                long extraPass = remainPurchase / makeCandies + (remainPurchase % makeCandies == 0 ? 0 : 1);
-                currentDays += extraPass;
-                candies += extraPass * m * w;
+                long extraDays = remainPurchase / makeCandies + (remainPurchase % makeCandies == 0 ? 0 : 1);
+                currentDays += extraDays;
+                candies += extraDays * makeCandies;
 
-                if (candies >= n) {
+                if ( n < candies) {
                     days = Math.min(days, currentDays);
-                    break;
+                    loop = false;
                 }
             }
-
 
             if (m < w) {
                 m++;
