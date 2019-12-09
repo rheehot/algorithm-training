@@ -7,6 +7,17 @@ import java.util.Vector;
  * [REMIND]
  * https://www.hackerrank.com/challenges/max-array-sum/
  * 너무 어렵다.... ㅠㅠ
+ * 3,7,4,6,5
+ * 인접 하지 않은 부분 수열의 최대값
+ *
+ * 점화식을 세우면
+ *
+ * max0 = max(a0, 0)
+ * max1 = max(max0, a1)
+ * max2 = max(max0 + a2, a2, max1)
+ * max3 = max(max1 + a3, a3, max2)
+ * ....
+ * maxN = max(max(N-2) + aN, max(N-1))
  */
 public class MaxArraySum {
     public static int maxSubsetSum(int[] arr) {
