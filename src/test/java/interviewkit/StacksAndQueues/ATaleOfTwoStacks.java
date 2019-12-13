@@ -43,7 +43,6 @@ public class ATaleOfTwoStacks {
             } else {
                 stackNewestOnTop.push(value);
             }
-
         }
 
         public T peek() {
@@ -57,7 +56,6 @@ public class ATaleOfTwoStacks {
                     stackOldestOnTop.push(stackNewestOnTop.pop());
                 }
             }
-
             return pop;
         }
     }
