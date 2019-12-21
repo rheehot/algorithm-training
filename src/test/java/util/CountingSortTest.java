@@ -1,11 +1,9 @@
 package test.java.util;
 
-import main.java.util.CountingSort;
+import main.java.basicAlgorithms.CountingSort;
 import org.junit.Test;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.stream.IntStream;
 
 import static org.junit.Assert.*;
 

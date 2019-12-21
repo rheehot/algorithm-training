@@ -1,10 +1,7 @@
 package test.java.interviewkit.StacksAndQueues;
 
+import main.java.interviewkit.StacksAndQueues.ATaleOfTwoStacks;
 import org.junit.Test;
-
-import java.util.Scanner;
-
-import static org.junit.Assert.*;
 
 public class ATaleOfTwoStacksTest {
 

@@ -1,8 +1,7 @@
 package test.java.interviewkit.StacksAndQueues;
 
+import main.java.interviewkit.StacksAndQueues.LargestRectangle;
 import org.junit.Test;
-
-import java.util.Stack;
 
 import static org.junit.Assert.*;
 

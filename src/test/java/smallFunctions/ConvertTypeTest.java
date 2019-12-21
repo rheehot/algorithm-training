@@ -2,12 +2,11 @@ package test.java.smallFunctions;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
+import java.lang.reflect.Array;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
 public class ConvertTypeTest {
@@ -77,5 +76,22 @@ public class ConvertTypeTest {
         int sum = inputs.stream().mapToInt(Integer::intValue).sum();
 
         System.out.println(sum);
+    }
+
+
+    @Test
+    public void int배열을_Integer큐로_변환() {
+        int[] arr = new int[]{1, 2, 3, 4, 5};
+        Queue<Integer> queue = new LinkedList(IntStream.of(arr).boxed().collect(Collectors.toList()));
+
+        queue.forEach(v -> System.out.println(v));
+    }
+
+    @Test
+    public void LIST를_배열로_변환() {
+        List<Integer> inputs = Arrays.asList(1, 3, 9, 9, 27, 81);
+        int[] ints = inputs.stream().mapToInt(Integer::intValue).toArray();
+
+        Arrays.stream(ints).forEach(v -> System.out.println(v));
     }
 }

@@ -1,4 +1,4 @@
-package test.java.interviewkit.StacksAndQueues;
+package main.java.interviewkit.StacksAndQueues;
 
 import java.util.Stack;
 
