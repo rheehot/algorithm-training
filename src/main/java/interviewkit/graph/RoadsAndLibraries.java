@@ -3,6 +3,7 @@ package main.java.interviewkit.graph;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.IntStream;
 
@@ -97,7 +98,8 @@ public class RoadsAndLibraries {
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("/Users/kimchanjung/test3.txt"));
+        String path = Paths.get("").toAbsolutePath().toString()+"/src/testcase-file/";
+        BufferedReader br = new BufferedReader(new FileReader(path+"roads-and-libraries.txt"));
 
         String s = br.readLine();
         System.out.println("q = " + s);

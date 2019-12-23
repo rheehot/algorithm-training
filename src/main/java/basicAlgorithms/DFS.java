@@ -64,10 +64,10 @@ public class DFS {
             visited[node] = true;
 
             for (int i = nodes[node].size() - 1; i >= 0; i--) {
-                Integer subNode = nodes[node].get(i);
+                Integer adjacencyNode = nodes[node].get(i);
 
-                if (!visited[subNode]) {
-                    stack.push(subNode);
+                if (!visited[adjacencyNode]) {
+                    stack.push(adjacencyNode);
                 }
             }
 

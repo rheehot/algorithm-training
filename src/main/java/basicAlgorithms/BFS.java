@@ -20,10 +20,10 @@ public class BFS {
         while (!queue.isEmpty()) {
             Integer node = queue.poll();
             route.add(node);
-            for (Integer subNode : nodes[node]) {
-                if (!visited[subNode]) {
-                    queue.offer(subNode);
-                    visited[subNode] = true;
+            for (Integer adjacencyNode : nodes[node]) {
+                if (!visited[adjacencyNode]) {
+                    queue.offer(adjacencyNode);
+                    visited[adjacencyNode] = true;
                 }
             }
         }
