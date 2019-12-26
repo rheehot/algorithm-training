@@ -1,4 +1,4 @@
-package main.java.interviewkit.DynamincPrograming;
+package test.java.interviewkit.DynamicPrograming;
 
 import org.junit.Test;
 

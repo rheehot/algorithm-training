@@ -1,5 +1,6 @@
-package main.java.interviewkit.search;
+package test.java.interviewkit.search;
 
+import main.java.interviewkit.search.Pairs;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

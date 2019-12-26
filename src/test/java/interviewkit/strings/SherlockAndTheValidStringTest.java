@@ -1,5 +1,6 @@
-package main.java.interviewkit.strings;
+package test.java.interviewkit.strings;
 
+import main.java.interviewkit.strings.SherlockAndTheValidString;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -1,7 +1,8 @@
-package main.java.datastructure;
+package test.java.datastructure;
 
 import main.java.Node;
 import main.java.TreeUtil;
+import main.java.datastructure.TopView;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
