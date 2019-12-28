@@ -54,23 +54,36 @@ public class Matrix {
     private static int[] parent;
     private static boolean[] machinesList;
 
+    /**
+     * 최상위 부모노드를 찾는다.
+     * @param node
+     * @return
+     */
     private static int findParent(int node) {
         if (parent[node] == node) return node;
         return parent[node] = findParent(parent[node]);
     }
 
+    /**
+     * 찾은 부모노드를 현재 노드의 부모노드로 변경하면서 연결작업을 한다.
+     * @param road
+     * @return
+     */
     private static int union(int[] road) {
         int parent1 = findParent(road[0]);
         int parent2 = findParent(road[1]);
 
+        // 부모 노드가 둘다 기계라면 간선 비용을 리턴
         if (machinesList[parent1] && machinesList[parent2]) return road[2];
 
+        // 양 노드의 최상위 부모를 찾아서 낮은쪽 부모로 변경하여 연결한다.
         if (parent1 < parent2) {
             parent[parent2] = parent1;
         } else {
             parent[parent1] = parent2;
         }
 
+        // 양 부모노드가 둘중 하나라도 기계라면, 해당 부모노드를 기계노드로 만든다.
         machinesList[parent1] |= machinesList[parent2];
         machinesList[parent2] |= machinesList[parent1];
 
@@ -81,7 +94,7 @@ public class Matrix {
         machinesList = new boolean[roads.length + 1];
         parent = IntStream.range(0, roads.length + 1).toArray();
         Arrays.stream(machines).forEach(v -> machinesList[v] = true);
-        Arrays.sort(roads, (x, y) -> Integer.compare(y[2], x[2]));
+        Arrays.sort(roads, (x, y) -> Integer.compare(y[2], x[2])); // 간선비용이 큰순서로 내림차순 정렬한다.
 
         return Arrays.stream(roads).mapToInt(Matrix::union).sum();
     }
