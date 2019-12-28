@@ -11,6 +11,7 @@ public class SpecialStringAgainTest {
     public void test() {
         //Given
         String s = "aabaa";
+
         //When
         SpecialStringAgain.substrCount(s.length(), s);
         //Then
