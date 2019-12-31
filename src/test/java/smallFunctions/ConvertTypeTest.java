@@ -94,4 +94,12 @@ public class ConvertTypeTest {
 
         Arrays.stream(ints).forEach(v -> System.out.println(v));
     }
+
+    @Test
+    public void CHAR숫자를_숫자로_변환() {
+        char i = '1';
+        System.out.println(i - '0');
+        System.out.println(Character.getNumericValue(i));
+
+    }
 }

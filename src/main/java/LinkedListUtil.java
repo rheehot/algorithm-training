@@ -9,6 +9,7 @@ public class LinkedListUtil {
         public SinglyLinkedListNode next;
 
         public SinglyLinkedListNode(int nodeData) {
+            super(nodeData);
             this.data = nodeData;
             this.next = null;
         }
@@ -53,6 +54,7 @@ public class LinkedListUtil {
         public DoublyLinkedListNode prev;
 
         public DoublyLinkedListNode(int nodeData) {
+            super(nodeData);
             this.data = nodeData;
             this.next = null;
             this.prev = null;

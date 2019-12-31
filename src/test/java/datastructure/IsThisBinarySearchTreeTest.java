@@ -1,6 +1,7 @@
-package main.java.datastructure;
+package test.java.datastructure;
 
 import main.java.Node;
+import main.java.datastructure.IsThisBinarySearchTree;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
@@ -23,6 +24,8 @@ public class IsThisBinarySearchTreeTest {
 
         //Then
         assertThat(false, is(isBST));
+
+
     }
 
 }

@@ -5,6 +5,11 @@ import main.java.Node;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * LEVEL : MEDIUM
+ * https://www.hackerrank.com/challenges/ctci-is-binary-search-tree
+ *
+ */
 public class IsThisBinarySearchTree {
 
     static boolean check(Node node, int minValue, int maxValue) {
