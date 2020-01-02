@@ -1,7 +1,7 @@
 package test.java.basicAlgorithms;
 
 import main.java.basicAlgorithms.StockSpanProblem;
-import main.java.interviewkit.StacksAndQueues.MinMaxRiddle;
+import main.java.hackerrank.interviewkit.StacksAndQueues.MinMaxRiddle;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -30,7 +30,11 @@ public class MapTest {
         map.putIfAbsent(1, 5);
         System.out.println("putIfAbsent 1 = " + map.get(1));
 
-        map.compute(1, (k, v) -> v+2);
+        map.compute(10, (k, v) -> {
+            System.out.println(k + "," + v);
+                    return 1;
+        });
+
         System.out.println("computed 1 = " + map.get(1));
 
         // key 2가 없는 경우 NPE남
@@ -62,6 +66,21 @@ public class MapTest {
         // Key 2 가 없으면 설정값 5를 입력한다.
         map.merge(2, 5, (originalValue, isNullValue) -> originalValue+isNullValue);
         System.out.println("merge 2 = "+map.get(2));
+
+    }
+
+    @Test
+    public void test2() {
+        HashMap<String, Integer> map = new HashMap<>();
+        map.put("a", 1);
+
+//        System.out.println(map.keySet().stream().findFirst().get());
+//        System.out.println(map.values().stream().findFirst().get());
+//        System.out.println(map.keySet().iterator().next());
+//        System.out.println(map.values().iterator().next());
+
+        Integer a = map.compute("a", (k, v) -> 10);
+        System.out.println(a);
 
     }
 }
