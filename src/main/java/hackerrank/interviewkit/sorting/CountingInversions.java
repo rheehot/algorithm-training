@@ -1,4 +1,4 @@
-package main.java.interviewkit;
+package main.java.hackerrank.interviewkit.sorting;
 
 /**
  * https://www.hackerrank.com/challenges/ctci-merge-sort

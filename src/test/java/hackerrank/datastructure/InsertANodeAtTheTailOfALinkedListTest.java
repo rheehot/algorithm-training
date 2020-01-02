@@ -3,7 +3,7 @@ package test.java.hackerrank.datastructure;
 import main.java.LinkedListUtil;
 import org.junit.Test;
 
-import static main.java.datastructure.InsertANodeAtTheTailOfALinkedList.insertNodeAtTail;
+import static main.java.hackerrank.datastructure.InsertANodeAtTheTailOfALinkedList.insertNodeAtTail;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 

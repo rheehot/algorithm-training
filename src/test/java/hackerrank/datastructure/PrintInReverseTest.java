@@ -3,7 +3,7 @@ package test.java.hackerrank.datastructure;
 import org.junit.Test;
 import main.java.LinkedListUtil;
 
-import static main.java.datastructure.PrintInReverse.*;
+import static main.java.hackerrank.datastructure.PrintInReverse.*;
 
 public class PrintInReverseTest extends LinkedListUtil {
 

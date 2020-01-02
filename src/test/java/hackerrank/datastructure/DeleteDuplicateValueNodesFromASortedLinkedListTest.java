@@ -1,7 +1,7 @@
 package test.java.hackerrank.datastructure;
 
 import main.java.LinkedListUtil;
-import main.java.datastructure.DeleteDuplicateValueNodesFromASortedLinkedList;
+import main.java.hackerrank.datastructure.DeleteDuplicateValueNodesFromASortedLinkedList;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

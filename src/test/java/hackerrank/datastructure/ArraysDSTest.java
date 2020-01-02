@@ -1,6 +1,6 @@
 package test.java.hackerrank.datastructure;
 
-import main.java.datastructure.ArraysDS;
+import main.java.hackerrank.datastructure.ArraysDS;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

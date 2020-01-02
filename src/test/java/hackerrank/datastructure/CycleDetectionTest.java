@@ -1,7 +1,7 @@
 package test.java.hackerrank.datastructure;
 
 import main.java.LinkedListUtil;
-import main.java.datastructure.CycleDetection;
+import main.java.hackerrank.datastructure.CycleDetection;
 import org.junit.Test;
 
 public class CycleDetectionTest extends LinkedListUtil {

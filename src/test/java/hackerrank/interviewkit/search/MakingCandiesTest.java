@@ -1,6 +1,6 @@
 package test.java.hackerrank.interviewkit.search;
 
-import main.java.interviewkit.search.MakingCandies;
+import main.java.hackerrank.interviewkit.search.MakingCandies;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

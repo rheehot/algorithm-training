@@ -1,7 +1,7 @@
 package test.java.hackerrank.datastructure;
 
 import main.java.LinkedListUtil;
-import main.java.datastructure.FindMergePointOfTwoLists;
+import main.java.hackerrank.datastructure.FindMergePointOfTwoLists;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;

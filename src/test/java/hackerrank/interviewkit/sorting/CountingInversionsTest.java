@@ -1,6 +1,6 @@
 package test.java.hackerrank.interviewkit.sorting;
 
-import main.java.hackerrank.interviewkit.CountingInversions;
+import main.java.hackerrank.interviewkit.sorting.CountingInversions;
 import org.junit.Test;
 
 import java.util.Arrays;

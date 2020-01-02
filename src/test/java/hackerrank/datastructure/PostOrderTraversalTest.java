@@ -2,7 +2,7 @@ package test.java.hackerrank.datastructure;
 
 import main.java.Node;
 import main.java.TreeUtil;
-import main.java.datastructure.PostOrderTraversal;
+import main.java.hackerrank.datastructure.PostOrderTraversal;
 import org.junit.Test;
 
 public class PostOrderTraversalTest {

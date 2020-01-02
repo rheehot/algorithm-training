@@ -3,7 +3,7 @@ package test.java.hackerrank.datastructure;
 import main.java.LinkedListUtil;
 import org.junit.Test;
 
-import static main.java.datastructure.InsertANodeAtASpecificPositionInALinkedList.insertNodeAtPosition;
+import static main.java.hackerrank.datastructure.InsertANodeAtASpecificPositionInALinkedList.insertNodeAtPosition;
 import static org.junit.Assert.assertEquals;
 
 public class InsertANodeAtASpecificPositionInALinkedListTest extends LinkedListUtil {

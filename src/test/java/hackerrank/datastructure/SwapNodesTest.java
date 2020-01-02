@@ -1,6 +1,6 @@
 package test.java.hackerrank.datastructure;
 
-import main.java.datastructure.SwapNodes;
+import main.java.hackerrank.datastructure.SwapNodes;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

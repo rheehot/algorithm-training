@@ -1,4 +1,4 @@
-package main.java.interviewkit.GreedyAlgorithms;
+package main.java.hackerrank.interviewkit.GreedyAlgorithms;
 
 import java.util.ArrayList;
 import java.util.Collections;

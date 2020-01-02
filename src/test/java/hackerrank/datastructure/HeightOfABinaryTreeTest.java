@@ -2,7 +2,7 @@ package test.java.hackerrank.datastructure;
 
 import main.java.Node;
 import main.java.TreeUtil;
-import main.java.datastructure.HeightOfABinaryTree;
+import main.java.hackerrank.datastructure.HeightOfABinaryTree;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

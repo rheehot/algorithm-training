@@ -2,7 +2,7 @@ package test.java.hackerrank.datastructure;
 
 import main.java.Node;
 import main.java.TreeUtil;
-import main.java.datastructure.LowestCommonAncestor;
+import main.java.hackerrank.datastructure.LowestCommonAncestor;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -1,7 +1,7 @@
 package test.java.hackerrank.datastructure;
 
 import main.java.LinkedListUtil;
-import main.java.datastructure.InsertingANodeIntoASortedDoublyLinkedList;
+import main.java.hackerrank.datastructure.InsertingANodeIntoASortedDoublyLinkedList;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
