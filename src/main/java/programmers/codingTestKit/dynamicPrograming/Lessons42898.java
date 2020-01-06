@@ -20,8 +20,7 @@ public class Lessons42898 {
     private static int recursive(int row, int col) {
         if (row < 1 || col < 1 || matrix[row][col] < 0) return 0;
         if (matrix[row][col] > 0) return matrix[row][col];
-        return matrix[row][col] = recursive(row, col - 1) + recursive(row - 1, col);
-
+        return matrix[row][col] = (recursive(row, col - 1) + recursive(row - 1, col)) % 1000000007;
     }
 
 
