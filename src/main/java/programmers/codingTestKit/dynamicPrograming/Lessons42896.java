@@ -8,7 +8,6 @@ package main.java.programmers.codingTestKit.dynamicPrograming;
  */
 public class Lessons42896 {
     public static int solution(int[] left, int[] right) {
-
         return 0;
     }
 }

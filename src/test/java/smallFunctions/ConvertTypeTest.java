@@ -1,7 +1,9 @@
 package test.java.smallFunctions;
 
 import org.junit.Test;
+import org.w3c.dom.ls.LSOutput;
 
+import javax.crypto.spec.PSource;
 import java.lang.reflect.Array;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -91,7 +93,6 @@ public class ConvertTypeTest {
     public void LIST를_배열로_변환() {
         List<Integer> inputs = Arrays.asList(1, 3, 9, 9, 27, 81);
         int[] ints = inputs.stream().mapToInt(Integer::intValue).toArray();
-
         Arrays.stream(ints).forEach(v -> System.out.println(v));
     }
 
@@ -101,5 +102,12 @@ public class ConvertTypeTest {
         System.out.println(i - '0');
         System.out.println(Character.getNumericValue(i));
 
+    }
+
+    @Test
+    public void 배열을_MAP으로_변환() {
+        String[] words = {"hot", "dot", "dog", "lot", "log", "cog"};
+        Map<String, Boolean> map = Arrays.stream(words).collect(Collectors.toMap(v -> v, v -> false));
+        map.forEach((k,v) -> System.out.println(k+", "+v));
     }
 }

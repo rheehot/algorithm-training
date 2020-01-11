@@ -27,9 +27,11 @@ public class MapTest {
         System.out.println(put);
 
         // 키 1 이 없는 경우에만  key 1을 생성후 5값 입력한다. 있으면 아무것도 안함
-        map.putIfAbsent(1, 5);
-        System.out.println("putIfAbsent 1 = " + map.get(1));
+        Integer integer = map.putIfAbsent(1, 5);
 
+        System.out.println("putIfAbsent 1 = " + map.get(1)+","+integer);
+
+        // 키가 없어도 실행됨 키가 없는 경우는 값이 null
         map.compute(10, (k, v) -> {
             System.out.println(k + "," + v);
                     return 1;
@@ -52,7 +54,7 @@ public class MapTest {
         System.out.println("computeIfPresent 2 = "+map.get(2));
 
         // key 3이 없는 경우 메소드를 실행한다. 즉 key 없으면 0 key을 새로 만들고 0을 입력한다.
-        map.computeIfAbsent(3, k -> 0);
+        map.computeIfAbsent(3, k -> 1);
         System.out.println("computeIfAbsent 3 = "+map.get(3));
 
         // key 1 이 있기 때문에 key에 아무런 영향을 주지 않는다.
