@@ -9,7 +9,6 @@ import java.util.Arrays;
  */
 public class Lessons42898 {
     private static int[][] matrix;
-    private static int[][] puddles;
     public static int solution(int m, int n, int[][] puddles) {
         matrix = new int[n+1][m+1];
         Arrays.stream(puddles).forEach(v -> matrix[v[0]][v[1]] = -1);
