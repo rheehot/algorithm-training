@@ -110,4 +110,10 @@ public class ConvertTypeTest {
         Map<String, Boolean> map = Arrays.stream(words).collect(Collectors.toMap(v -> v, v -> false));
         map.forEach((k,v) -> System.out.println(k+", "+v));
     }
+
+    @Test
+    public void STRING_배열을_STRING으로_합치기() {
+        String[] split = "123456".split("");
+        System.out.println(String.join("", split));
+    }
 }
