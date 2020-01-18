@@ -4,6 +4,7 @@ import org.junit.Test;
 import org.w3c.dom.ls.LSOutput;
 
 import javax.crypto.spec.PSource;
+import java.beans.IntrospectionException;
 import java.lang.reflect.Array;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -115,5 +116,12 @@ public class ConvertTypeTest {
     public void STRING_배열을_STRING으로_합치기() {
         String[] split = "123456".split("");
         System.out.println(String.join("", split));
+    }
+
+    @Test
+    public void INT_배열을_LIST_변환() {
+        int[] nums = {1, 2, 3, 4};
+        List<Integer> collect = Arrays.stream(nums).boxed().collect(Collectors.toList());
+        List<Integer> arrayList = new ArrayList(Arrays.asList(nums));
     }
 }
