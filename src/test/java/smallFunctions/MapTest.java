@@ -9,14 +9,13 @@ public class MapTest {
 
     @Test
     public void test() {
-        Map<Integer, String> map = new HashMap<>();
-        map.put(2, "A");
-        map.put(1, "B");
-        map.put(1, "C");
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(2, 1);
+        map.put(1, 1);
+        map.put(1, 10);
 
-        for (String value : map.values()) {
-            System.out.print(value + " ");
-        }
+
+        map.forEach((k, v) -> System.out.println(k+","+v));
     }
 
     @Test
