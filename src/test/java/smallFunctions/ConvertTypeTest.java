@@ -90,6 +90,24 @@ public class ConvertTypeTest {
         queue.forEach(v -> System.out.println(v));
     }
 
+
+    @Test
+    public void 이차원_int배열을_stream처리후_그대로_반환(){
+        int[][] arr = new int[][]{{1,2},{2,3}};
+        int[][] ints = Arrays.stream(arr).toArray(int[][]::new);
+        Arrays.stream(ints).forEach(v -> System.out.println(v[0]+", "+v[1]));
+    }
+
+    @Test
+    public void 이차원_int배열을_List_int타(){
+        int[][] arr = new int[][]{{1,2},{2,3}};
+
+        List<int[]> collect = Arrays.stream(arr).collect(Collectors.toList());
+
+        collect.stream().forEach(v -> System.out.println(v[0]+", "+v[1]));
+    }
+
+
     @Test
     public void LIST를_배열로_변환() {
         List<Integer> inputs = Arrays.asList(1, 3, 9, 9, 27, 81);

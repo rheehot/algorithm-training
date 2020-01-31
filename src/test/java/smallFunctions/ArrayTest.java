@@ -41,9 +41,21 @@ public class ArrayTest {
         int sum = Arrays.stream(arr).map(Math::abs).sum();
         System.out.println(sum);
     }
+
     @Test
     public void CHAR_배열_스트림() {
         String s = "AAAAAAAA";
         s.chars().forEach(v -> System.out.println((char) v));
+    }
+
+    /**
+     * https://mkyong.com/java/java-how-to-join-arrays/
+     */
+    @Test
+    public void 두배열_합치기() {
+        int[] a = {1, 2, 3};
+        int[] b = {3, 5};
+        int[] arr = IntStream.concat(Arrays.stream(a), Arrays.stream(b)).distinct().toArray();
+        Arrays.stream(arr).forEach(v -> System.out.println(v));
     }
 }

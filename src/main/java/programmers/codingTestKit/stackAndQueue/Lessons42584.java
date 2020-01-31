@@ -31,13 +31,13 @@ public class Lessons42584 {
         int[] ret = new int[prices.length];
 
         for (int i = prices.length - 2; i >= 0; i--) {
-            int day = 0;
+            int day = 1;
 
             while (!stack.isEmpty() && stack.peek()[0] >= prices[i]) {
                 day += stack.pop()[1];
             }
 
-            ret[i] = stack.push(new Integer[]{prices[i], day + 1})[1];
+            ret[i] = stack.push(new Integer[]{prices[i], day})[1];
         }
 
         return ret;
