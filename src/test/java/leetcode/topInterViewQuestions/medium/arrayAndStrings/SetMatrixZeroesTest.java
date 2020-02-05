@@ -1,6 +1,9 @@
 package test.java.leetcode.topInterViewQuestions.medium.arrayAndStrings;
 
+import main.java.leetcode.topInterViewQuestions.medium.arrayAndStrings.SetMatrixZeroes;
 import org.junit.Test;
+
+import java.util.Arrays;
 
 import static org.junit.Assert.*;
 
@@ -11,6 +14,9 @@ public class SetMatrixZeroesTest {
 
     @Test
     public void test() {
+        int[][] arr = {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
+        int[][] expected = {{1, 0, 1}, {0, 0, 0}, {1, 0, 1}};
 
+        assertTrue(Arrays.deepEquals(expected, SetMatrixZeroes.setZeroes(arr)));
     }
 }
