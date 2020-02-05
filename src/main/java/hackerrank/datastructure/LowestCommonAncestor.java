@@ -1,6 +1,6 @@
 package main.java.hackerrank.datastructure;
 
-import main.java.Node;
+import java.Node;
 
 /**
  * 이진 트리에서 특정 두 노드의 공통 부모를 찾는다

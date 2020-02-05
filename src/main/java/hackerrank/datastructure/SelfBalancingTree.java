@@ -1,6 +1,4 @@
 package main.java.hackerrank.datastructure;
-
-
 import java.util.LinkedList;
 import java.util.Queue;
 

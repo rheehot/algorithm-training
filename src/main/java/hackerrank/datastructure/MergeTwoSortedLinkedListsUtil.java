@@ -3,7 +3,7 @@ package main.java.hackerrank.datastructure;
 import main.java.LinkedListUtil;
 
 public class MergeTwoSortedLinkedListsUtil extends LinkedListUtil {
-    public static SinglyLinkedListNode mergeLists(SinglyLinkedListNode head1, SinglyLinkedListNode head2) {
+    public static SinglyLinkedListNode mergeLists(SinglyLinkedListNode head1, LinkedListUtil.SinglyLinkedListNode head2) {
         System.out.println("call mergeList head1 = " + getData(head1) + ", head2 = " + getData(head2));
 
         if (head1 == null) {
@@ -23,3 +23,4 @@ public class MergeTwoSortedLinkedListsUtil extends LinkedListUtil {
         }
     }
 }
+

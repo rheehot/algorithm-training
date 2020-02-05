@@ -5,6 +5,10 @@ import org.junit.Test;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 맵 데이터와 함께 선
+ * https://www.baeldung.com/java-initialize-hashmap
+ */
 public class MapTest {
 
     @Test
@@ -36,10 +40,7 @@ public class MapTest {
                     return 1;
         });
 
-        System.out.println("computed 1 = " + map.get(1));
-
-        // key 2가 없는 경우 NPE남
-        //map.compute(2, (k, v) -> v+2);
+        System.out.println("computed 10 = " + map.get(10));
 
         // key 1이 있으면 함수를 실행한다
         Integer computeIfPresent = map.computeIfPresent(1, (k, v) -> ++v);
@@ -72,16 +73,18 @@ public class MapTest {
 
     @Test
     public void test2() {
-        HashMap<String, Integer> map = new HashMap<>();
-        map.put("a", 1);
+        HashMap<Integer, Integer> map = new HashMap<>();
+        map.put(1, 10);
 
 //        System.out.println(map.keySet().stream().findFirst().get());
 //        System.out.println(map.values().stream().findFirst().get());
 //        System.out.println(map.keySet().iterator().next());
 //        System.out.println(map.values().iterator().next());
 
-        Integer a = map.compute("a", (k, v) -> 10);
-        System.out.println(a);
+        //Integer a = map.compute("a", (k, v) -> 10);
+        Integer integer = map.computeIfAbsent(1, k -> 0);
+        System.out.println("computeIfAbsent 1 = "+map.get(1));
+        System.out.println(integer);
 
     }
 }

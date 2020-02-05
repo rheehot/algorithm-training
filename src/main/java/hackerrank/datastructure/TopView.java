@@ -1,6 +1,6 @@
 package main.java.hackerrank.datastructure;
 
-import main.java.Node;
+import java.Node;
 
 
 import java.util.LinkedList;

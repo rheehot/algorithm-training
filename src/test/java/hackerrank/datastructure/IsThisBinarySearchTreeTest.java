@@ -1,6 +1,6 @@
 package test.java.hackerrank.datastructure;
 
-import main.java.Node;
+import java.Node;
 import main.java.hackerrank.datastructure.IsThisBinarySearchTree;
 import org.junit.Test;
 

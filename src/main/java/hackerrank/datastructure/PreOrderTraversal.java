@@ -1,6 +1,6 @@
 package main.java.hackerrank.datastructure;
 
-import main.java.Node;
+import java.Node;
 
 /**
  * 전위탐색 즉 root -> left(-> left 자식이 없을때 까지) -> right

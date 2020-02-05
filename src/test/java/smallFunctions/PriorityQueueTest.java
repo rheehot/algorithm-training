@@ -29,7 +29,7 @@ public class PriorityQueueTest {
     @Test
     public void 우선순위큐_선언() {
         int[][] arrs = {{0, 3}, {1, 9}, {2, 6}};
-        PriorityQueue<QTest> pq = new PriorityQueue(Arrays.stream(arrs).map(QTest::new).collect(Collectors.toList()));
+        PriorityQueue<QTest> pq = new PriorityQueue(Arrays.stream(arrs).map(QTest::new).collect(Collectors.toList()));;
         pq.forEach(v -> System.out.println(v.a + "," + v.b));
 
         PriorityQueue<QTest> q = Arrays.stream(arrs).map(QTest::new).collect(Collectors.toCollection(PriorityQueue::new));

@@ -1,6 +1,6 @@
 package main.java.hackerrank.datastructure;
 
-import main.java.Node;
+import java.Node;
 
 /**
  * 루트 노드(root node): 부모가 없는 노드, 트리는 하나의 루트 노드만을 가진다.

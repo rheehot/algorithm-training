@@ -128,6 +128,10 @@ public class ConvertTypeTest {
         String[] words = {"hot", "dot", "dog", "lot", "log", "cog"};
         Map<String, Boolean> map = Arrays.stream(words).collect(Collectors.toMap(v -> v, v -> false));
         map.forEach((k,v) -> System.out.println(k+", "+v));
+
+        int[] nums = {1, 2, 3, 4, 5};
+        Map<Integer, Integer> map2 = Arrays.stream(nums).boxed().collect(Collectors.toMap(v -> v, v -> v));
+        map2.forEach((k,v) -> System.out.println(k+", "+v));
     }
 
     @Test

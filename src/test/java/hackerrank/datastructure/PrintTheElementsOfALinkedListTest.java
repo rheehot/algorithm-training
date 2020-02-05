@@ -1,4 +1,4 @@
-package test.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
 import main.java.LinkedListUtil;
 import org.junit.Test;

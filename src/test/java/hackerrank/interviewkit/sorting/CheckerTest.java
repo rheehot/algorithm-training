@@ -1,6 +1,6 @@
 package test.java.hackerrank.interviewkit.sorting;
 
-import main.java.Player;
+import java.Player;
 import main.java.hackerrank.interviewkit.sorting.Checker;
 import org.junit.Test;
 

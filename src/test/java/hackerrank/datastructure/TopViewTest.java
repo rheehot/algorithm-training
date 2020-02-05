@@ -1,7 +1,7 @@
 package test.java.hackerrank.datastructure;
 
-import main.java.Node;
-import main.java.TreeUtil;
+import java.Node;
+import java.TreeUtil;
 import main.java.hackerrank.datastructure.TopView;
 import org.junit.Test;
 
