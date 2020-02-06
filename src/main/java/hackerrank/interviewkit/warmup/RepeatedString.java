@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.warmup;
+package hackerrank.interviewkit.warmup;
 
 
 /**

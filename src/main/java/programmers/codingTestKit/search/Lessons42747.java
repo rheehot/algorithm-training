@@ -1,4 +1,4 @@
-package main.java.programmers.codingTestKit.search;
+package programmers.codingTestKit.search;
 
 import java.util.Arrays;
 

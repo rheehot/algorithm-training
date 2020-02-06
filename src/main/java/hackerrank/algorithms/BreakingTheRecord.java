@@ -1,4 +1,4 @@
-package main.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
 /**
  * 마리아는 대학 농구를 하며 프로가 되길 원한다. 매시 그녀는 그녀의 경기를 기록 한다.

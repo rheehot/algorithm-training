@@ -1,9 +1,9 @@
-package main.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
 
-import main.java.hackerrank.datastructure.huffman.HuffmanLeaf;
-import main.java.hackerrank.datastructure.huffman.HuffmanNode;
-import main.java.hackerrank.datastructure.huffman.Node;
+import hackerrank.datastructure.huffman.HuffmanLeaf;
+import hackerrank.datastructure.huffman.HuffmanNode;
+import hackerrank.datastructure.huffman.Node;
 
 import java.util.PriorityQueue;
 

@@ -1,6 +1,6 @@
-package main.java.hackerrank.interviewkit.LinkedList;
+package hackerrank.interviewkit.LinkedList;
 
-import main.java.LinkedListNode;
+import hackerrank.LinkedListNode;
 
 import java.util.HashSet;
 import java.util.Set;

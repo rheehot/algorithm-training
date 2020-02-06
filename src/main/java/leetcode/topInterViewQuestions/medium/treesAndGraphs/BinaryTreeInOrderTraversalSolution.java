@@ -1,4 +1,4 @@
-package main.java.leetcode.topInterViewQuestions.medium.treesAndGraphs;
+package leetcode.topInterViewQuestions.medium.treesAndGraphs;
 
 import java.util.ArrayList;
 import java.util.List;

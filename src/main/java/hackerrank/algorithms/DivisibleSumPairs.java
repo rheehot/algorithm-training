@@ -1,4 +1,4 @@
-package main.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
 /**
  * 주어진 배열의 각 원소들 중 두 수를 합한 수가 k 값으로 나눠지는 조합이 몇개 인지 찾는다.

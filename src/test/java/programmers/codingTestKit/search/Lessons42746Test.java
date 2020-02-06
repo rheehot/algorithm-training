@@ -1,6 +1,6 @@
-package test.java.programmers.codingTestKit.search;
+package programmers.codingTestKit.search;
 
-import main.java.programmers.codingTestKit.search.Lessons42746;
+import programmers.codingTestKit.search.Lessons42746;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

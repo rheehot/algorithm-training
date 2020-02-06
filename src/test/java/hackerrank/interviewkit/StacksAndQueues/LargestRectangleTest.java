@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.StacksAndQueues;
+package hackerrank.interviewkit.StacksAndQueues;
 
-import main.java.hackerrank.interviewkit.StacksAndQueues.LargestRectangle;
+import hackerrank.interviewkit.StacksAndQueues.LargestRectangle;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -1,7 +1,7 @@
-package main.java.hackerrank.interviewkit.sorting;
+package hackerrank.interviewkit.sorting;
 
 
-import java.Player;
+import hackerrank.Player;
 
 import java.util.Comparator;
 

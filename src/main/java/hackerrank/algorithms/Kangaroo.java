@@ -1,4 +1,4 @@
-package main.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
 /**
  * 당신은 여러 동물들과 써커스 쑈를 안무하고 있습니다. 한번의 행동으로, 당신은 양수 방향으로 점프할 준비가 되어 있는 두 줄의 캥거루가 주어 집니다.

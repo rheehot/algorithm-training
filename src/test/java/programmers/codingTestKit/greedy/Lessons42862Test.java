@@ -1,6 +1,6 @@
-package test.java.programmers.codingTestKit.greedy;
+package programmers.codingTestKit.greedy;
 
-import main.java.programmers.codingTestKit.greedy.Lessons42862;
+import programmers.codingTestKit.greedy.Lessons42862;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

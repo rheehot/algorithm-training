@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.DynamicPrograming;
+package hackerrank.interviewkit.DynamicPrograming;
 
-import main.java.hackerrank.interviewkit.DynamincPrograming.Candies;
+import hackerrank.interviewkit.DynamincPrograming.Candies;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

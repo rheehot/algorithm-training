@@ -1,4 +1,4 @@
-package test.java.programmers.codingTestKit.dynamicPrograming;
+package programmers.codingTestKit.dynamicPrograming;
 
 import org.junit.Test;
 

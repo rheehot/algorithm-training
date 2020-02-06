@@ -1,4 +1,4 @@
-package main.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
 public class TwoDArrayDS {
     // Complete the hourglassSum function below.

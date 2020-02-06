@@ -1,9 +1,9 @@
 package hackerrank.datastructure;
 
-import main.java.LinkedListUtil;
+import hackerrank.LinkedListUtil;
 import org.junit.Test;
 
-import static main.java.hackerrank.datastructure.PrintTheElementsOfALinkedList.printLinkedList;
+import static hackerrank.datastructure.PrintTheElementsOfALinkedList.printLinkedList;
 
 
 public class PrintTheElementsOfALinkedListTest extends LinkedListUtil {

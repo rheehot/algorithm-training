@@ -1,6 +1,6 @@
-package test.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
-import main.java.hackerrank.algorithms.CompareTheTriplets;
+import hackerrank.algorithms.CompareTheTriplets;
 import org.junit.Test;
 
 import java.util.Arrays;

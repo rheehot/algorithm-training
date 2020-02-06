@@ -1,4 +1,4 @@
-package test.java.hackerrank.interviewkit.RecursionAndBacktracking;
+package hackerrank.interviewkit.RecursionAndBacktracking;
 
 import org.junit.Test;
 

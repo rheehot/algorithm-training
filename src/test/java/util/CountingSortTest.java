@@ -1,6 +1,6 @@
-package test.java.util;
+package util;
 
-import main.java.basicAlgorithms.CountingSort;
+import basicAlgorithms.CountingSort;
 import org.junit.Test;
 
 import java.util.Arrays;

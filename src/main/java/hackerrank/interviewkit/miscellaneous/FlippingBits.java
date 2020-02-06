@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.miscellaneous;
+package hackerrank.interviewkit.miscellaneous;
 
 /**
  * https://www.hackerrank.com/challenges/flipping-bits/problem

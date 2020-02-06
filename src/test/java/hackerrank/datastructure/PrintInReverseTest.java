@@ -1,9 +1,9 @@
-package test.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
+import hackerrank.LinkedListUtil;
 import org.junit.Test;
-import main.java.LinkedListUtil;
 
-import static main.java.hackerrank.datastructure.PrintInReverse.*;
+import static hackerrank.datastructure.PrintInReverse.*;
 
 public class PrintInReverseTest extends LinkedListUtil {
 

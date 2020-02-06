@@ -1,4 +1,4 @@
-package main.java.basicAlgorithms;
+package basicAlgorithms;
 
 /**
  * Created by kimchanjung on 2020-01-14 6:48 오후

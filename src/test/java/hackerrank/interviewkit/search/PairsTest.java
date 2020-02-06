@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.search;
+package hackerrank.interviewkit.search;
 
-import main.java.hackerrank.interviewkit.search.Pairs;
+import hackerrank.interviewkit.search.Pairs;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

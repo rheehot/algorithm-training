@@ -1,14 +1,12 @@
-package test.java.leetcode.topInterViewQuestions.medium.treesAndGraphs;
+package leetcode.topInterViewQuestions.medium.treesAndGraphs;
 
-import main.java.leetcode.topInterViewQuestions.medium.treesAndGraphs.BinaryTreeInOrderTraversalSolution;
 import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static com.sun.org.apache.xerces.internal.util.PropertyState.is;
-import static main.java.leetcode.topInterViewQuestions.medium.treesAndGraphs.BinaryTreeInOrderTraversalSolution.*;
-import static org.junit.Assert.*;
+import static leetcode.topInterViewQuestions.medium.treesAndGraphs.BinaryTreeInOrderTraversalSolution.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Created by kimchanjung on 2020-02-04 3:14 오후

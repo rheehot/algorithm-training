@@ -1,4 +1,4 @@
-package main.java.leetcode.topInterViewQuestions.medium.arrayAndStrings;
+package leetcode.topInterViewQuestions.medium.arrayAndStrings;
 
 import java.util.ArrayList;
 import java.util.Arrays;

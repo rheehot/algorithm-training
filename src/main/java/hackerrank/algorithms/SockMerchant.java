@@ -1,4 +1,4 @@
-package main.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
 /**
  * 임의의 숫자들 중에 쌍으로 존재 하는 수가 몇개인지 찾는 다

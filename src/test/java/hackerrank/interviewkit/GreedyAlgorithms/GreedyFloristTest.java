@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.GreedyAlgorithms;
+package hackerrank.interviewkit.GreedyAlgorithms;
 
-import main.java.hackerrank.interviewkit.GreedyAlgorithms.GreedyFlorist;
+import hackerrank.interviewkit.GreedyAlgorithms.GreedyFlorist;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

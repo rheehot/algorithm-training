@@ -1,4 +1,4 @@
-package main.java.programmers.codingTestKit.greedy;
+package programmers.codingTestKit.greedy;
 
 import java.util.stream.IntStream;
 

@@ -1,6 +1,6 @@
-package test.java.programmers.codingTestKit.hash;
+package programmers.codingTestKit.hash;
 
-import main.java.programmers.codingTestKit.hash.Lessons42577;
+import programmers.codingTestKit.hash.Lessons42577;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

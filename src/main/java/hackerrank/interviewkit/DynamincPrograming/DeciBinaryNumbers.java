@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.DynamincPrograming;
+package hackerrank.interviewkit.DynamincPrograming;
 
 public class DeciBinaryNumbers {
     public static long deciBinaryNumbers(long x) {

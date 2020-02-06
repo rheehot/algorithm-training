@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.graph;
+package hackerrank.interviewkit.graph;
 
 /**
  * https://www.hackerrank.com/challenges/ctci-connected-cell-in-a-grid/

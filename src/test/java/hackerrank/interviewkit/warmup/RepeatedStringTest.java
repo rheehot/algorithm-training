@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.warmup;
+package hackerrank.interviewkit.warmup;
 
-import main.java.hackerrank.interviewkit.warmup.RepeatedString;
+import hackerrank.interviewkit.warmup.RepeatedString;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

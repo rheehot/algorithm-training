@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.GreedyAlgorithms;
+package hackerrank.interviewkit.GreedyAlgorithms;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

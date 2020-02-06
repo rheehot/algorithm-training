@@ -1,4 +1,4 @@
-package main.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
 /**
  * https://www.hackerrank.com/challenges/utopian-tree

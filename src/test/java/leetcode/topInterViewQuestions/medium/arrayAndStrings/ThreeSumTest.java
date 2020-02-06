@@ -1,7 +1,7 @@
-package test.java.leetcode.topInterViewQuestions.medium.arrayAndStrings;
+package leetcode.topInterViewQuestions.medium.arrayAndStrings;
 
 
-import main.java.leetcode.topInterViewQuestions.medium.arrayAndStrings.ThreeSum;
+import leetcode.topInterViewQuestions.medium.arrayAndStrings.ThreeSum;
 import org.junit.Test;
 
 import java.util.Arrays;

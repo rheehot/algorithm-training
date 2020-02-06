@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.RecursionAndBacktracking;
+package hackerrank.interviewkit.RecursionAndBacktracking;
 
-import main.java.hackerrank.interviewkit.RecursionAndBacktracking.DavisStaircase;
+import hackerrank.interviewkit.RecursionAndBacktracking.DavisStaircase;
 import org.junit.Test;
 
 import java.util.HashMap;

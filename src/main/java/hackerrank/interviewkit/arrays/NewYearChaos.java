@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.arrays;
+package hackerrank.interviewkit.arrays;
 
 /**
  * https://www.hackerrank.com/challenges/new-year-chaos

@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.miscellaneous;
+package hackerrank.interviewkit.miscellaneous;
 
-import main.java.hackerrank.interviewkit.miscellaneous.FriendCircleQueries;
+import hackerrank.interviewkit.miscellaneous.FriendCircleQueries;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

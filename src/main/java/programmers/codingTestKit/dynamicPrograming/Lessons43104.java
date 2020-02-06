@@ -1,4 +1,4 @@
-package main.java.programmers.codingTestKit.dynamicPrograming;
+package programmers.codingTestKit.dynamicPrograming;
 
 /**
  * https://programmers.co.kr/learn/courses/30/lessons/43104

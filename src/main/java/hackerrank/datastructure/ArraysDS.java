@@ -1,4 +1,4 @@
-package main.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
 public class ArraysDS {
     public static int[] reverseArray(int[] a) {

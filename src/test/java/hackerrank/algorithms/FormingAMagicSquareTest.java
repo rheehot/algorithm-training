@@ -1,6 +1,6 @@
-package test.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
-import main.java.hackerrank.algorithms.FormingAMagicSquare;
+import hackerrank.algorithms.FormingAMagicSquare;
 import org.junit.Test;
 
 public class FormingAMagicSquareTest {

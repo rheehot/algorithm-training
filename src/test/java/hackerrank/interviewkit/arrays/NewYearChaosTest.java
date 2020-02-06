@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.arrays;
+package hackerrank.interviewkit.arrays;
 
-import main.java.hackerrank.interviewkit.arrays.NewYearChaos;
+import hackerrank.interviewkit.arrays.NewYearChaos;
 import org.junit.Test;
 
 public class NewYearChaosTest {

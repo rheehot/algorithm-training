@@ -1,9 +1,9 @@
-package test.java.leetcode.topInterViewQuestions.medium.linkedList;
+package leetcode.topInterViewQuestions.medium.linkedList;
 
-import main.java.leetcode.topInterViewQuestions.medium.linkedList.OddEvenLinkedList.*;
+import leetcode.topInterViewQuestions.medium.linkedList.OddEvenLinkedList.*;
 import org.junit.Test;
 
-import static main.java.leetcode.topInterViewQuestions.medium.linkedList.OddEvenLinkedList.oddEvenList;
+import static leetcode.topInterViewQuestions.medium.linkedList.OddEvenLinkedList.oddEvenList;
 import static org.junit.Assert.*;
 
 /**

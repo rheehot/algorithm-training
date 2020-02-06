@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.DictionariesAndHashmaps;
+package hackerrank.interviewkit.DictionariesAndHashmaps;
 
-import main.java.hackerrank.interviewkit.DictionariesAndHashmaps.SherlockAndAnagrams;
+import hackerrank.interviewkit.DictionariesAndHashmaps.SherlockAndAnagrams;
 import org.junit.Test;
 
 import java.util.HashMap;

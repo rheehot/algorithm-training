@@ -1,5 +1,4 @@
-package main.java.basicAlgorithms;
-
+package basicAlgorithms;
 
 import java.util.Arrays;
 import java.util.Collections;

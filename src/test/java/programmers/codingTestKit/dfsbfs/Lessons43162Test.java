@@ -1,6 +1,6 @@
-package test.java.programmers.codingTestKit.dfsbfs;
+package programmers.codingTestKit.dfsbfs;
 
-import main.java.programmers.codingTestKit.dfsbfs.Lessons43162;
+import programmers.codingTestKit.dfsbfs.Lessons43162;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

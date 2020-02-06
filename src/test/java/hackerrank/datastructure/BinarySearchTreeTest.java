@@ -1,7 +1,6 @@
-package test.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
-import java.Node;
-import main.java.hackerrank.datastructure.BinarySearchTree;
+import hackerrank.Node;
 import org.junit.Test;
 
 public class BinarySearchTreeTest {

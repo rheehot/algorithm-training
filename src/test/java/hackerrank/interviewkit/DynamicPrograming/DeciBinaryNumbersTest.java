@@ -1,4 +1,4 @@
-package test.java.hackerrank.interviewkit.DynamicPrograming;
+package hackerrank.interviewkit.DynamicPrograming;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package main.java.programmers.codingTestKit.hash;
+package programmers.codingTestKit.hash;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,6 +1,6 @@
-package test.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
-import main.java.hackerrank.algorithms.Staircase;
+import hackerrank.algorithms.Staircase;
 import org.junit.Test;
 
 public class StaircaseTest {

@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.DynamincPrograming;
+package hackerrank.interviewkit.DynamincPrograming;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;

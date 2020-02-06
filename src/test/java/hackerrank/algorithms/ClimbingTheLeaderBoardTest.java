@@ -1,6 +1,6 @@
-package test.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
-import main.java.hackerrank.algorithms.ClimbingTheLeaderBoard;
+import hackerrank.algorithms.ClimbingTheLeaderBoard;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;

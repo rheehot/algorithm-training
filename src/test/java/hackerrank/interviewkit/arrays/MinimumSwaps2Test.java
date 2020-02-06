@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.arrays;
+package hackerrank.interviewkit.arrays;
 
-import main.java.hackerrank.interviewkit.arrays.MinimumSwaps2;
+import hackerrank.interviewkit.arrays.MinimumSwaps2;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.RecursionAndBacktracking;
+package hackerrank.interviewkit.RecursionAndBacktracking;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.graph;
+package hackerrank.interviewkit.graph;
 
 import java.util.*;
 

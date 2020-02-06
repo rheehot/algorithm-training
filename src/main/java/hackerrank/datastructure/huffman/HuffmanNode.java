@@ -1,4 +1,4 @@
-package main.java.hackerrank.datastructure.huffman;
+package hackerrank.datastructure.huffman;
 
 public class HuffmanNode extends Node {
 

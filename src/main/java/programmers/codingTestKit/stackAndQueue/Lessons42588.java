@@ -1,4 +1,4 @@
-package main.java.programmers.codingTestKit.stackAndQueue;
+package programmers.codingTestKit.stackAndQueue;
 
 import java.util.Arrays;
 import java.util.Stack;

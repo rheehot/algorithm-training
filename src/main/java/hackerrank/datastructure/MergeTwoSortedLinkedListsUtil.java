@@ -1,6 +1,6 @@
-package main.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
-import main.java.LinkedListUtil;
+import hackerrank.LinkedListUtil;
 
 public class MergeTwoSortedLinkedListsUtil extends LinkedListUtil {
     public static SinglyLinkedListNode mergeLists(SinglyLinkedListNode head1, LinkedListUtil.SinglyLinkedListNode head2) {

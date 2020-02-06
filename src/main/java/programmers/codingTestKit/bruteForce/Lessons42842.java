@@ -1,4 +1,4 @@
-package main.java.programmers.codingTestKit.bruteForce;
+package programmers.codingTestKit.bruteForce;
 
 /**
  * Created by kimchanjung on 2020-01-17 12:59 오후

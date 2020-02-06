@@ -1,4 +1,4 @@
-package main.java.leetcode.topInterViewQuestions.medium.linkedList;
+package leetcode.topInterViewQuestions.medium.linkedList;
 
 /**
  * Created by kimchanjung on 2020-02-04 2:10 오후

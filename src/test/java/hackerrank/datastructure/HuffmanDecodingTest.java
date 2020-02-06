@@ -1,7 +1,7 @@
-package test.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
-import main.java.hackerrank.datastructure.HuffmanDecoding;
-import main.java.hackerrank.datastructure.huffman.Node;
+import hackerrank.datastructure.HuffmanDecoding;
+import hackerrank.datastructure.huffman.Node;
 import org.junit.Test;
 
 public class HuffmanDecodingTest {

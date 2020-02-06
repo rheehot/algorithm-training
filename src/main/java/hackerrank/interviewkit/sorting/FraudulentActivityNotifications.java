@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.sorting;
+package hackerrank.interviewkit.sorting;
 
 import java.util.Arrays;
 

@@ -1,6 +1,6 @@
-package main.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
-import main.java.LinkedListUtil;
+import hackerrank.LinkedListUtil;
 
 /**
  * 링크드 리스트에 특정 값을 껴넣는데 대신 순서에 맞게 껴넣는다

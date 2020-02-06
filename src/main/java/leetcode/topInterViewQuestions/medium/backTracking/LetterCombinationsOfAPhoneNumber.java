@@ -1,4 +1,4 @@
-package main.java.leetcode.topInterViewQuestions.medium.backTracking;
+package leetcode.topInterViewQuestions.medium.backTracking;
 
 import java.util.List;
 

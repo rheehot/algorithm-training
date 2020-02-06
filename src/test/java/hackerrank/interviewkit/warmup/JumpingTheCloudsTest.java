@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.warmup;
+package hackerrank.interviewkit.warmup;
 
-import main.java.hackerrank.interviewkit.warmup.JumpingTheClouds;
+import hackerrank.interviewkit.warmup.JumpingTheClouds;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

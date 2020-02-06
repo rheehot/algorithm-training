@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.miscellaneous;
+package hackerrank.interviewkit.miscellaneous;
 
-import main.java.hackerrank.interviewkit.miscellaneous.TimeComplexityPrimality;
+import hackerrank.interviewkit.miscellaneous.TimeComplexityPrimality;
 import org.junit.Test;
 
 public class TimeComplexityPrimalityTest {

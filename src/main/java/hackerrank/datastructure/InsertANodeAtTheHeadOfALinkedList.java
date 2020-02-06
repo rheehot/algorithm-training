@@ -1,6 +1,6 @@
-package main.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
-import main.java.LinkedListUtil;
+import hackerrank.LinkedListUtil;
 
 /**
  * 링크드 리스트의 head에 새노드를 껴넣는다.

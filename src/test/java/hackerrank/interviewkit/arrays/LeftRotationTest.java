@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.arrays;
+package hackerrank.interviewkit.arrays;
 
-import main.java.hackerrank.interviewkit.arrays.LeftRotation;
+import hackerrank.interviewkit.arrays.LeftRotation;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

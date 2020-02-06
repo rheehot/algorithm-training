@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.DictionariesAndHashmaps;
+package hackerrank.interviewkit.DictionariesAndHashmaps;
 
-import main.java.hackerrank.interviewkit.DictionariesAndHashmaps.CountTriplets;
+import hackerrank.interviewkit.DictionariesAndHashmaps.CountTriplets;
 import org.junit.Test;
 
 import java.util.ArrayList;

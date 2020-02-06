@@ -1,6 +1,6 @@
-package test.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
-import main.java.hackerrank.algorithms.BetweenTwoSets;
+import hackerrank.algorithms.BetweenTwoSets;
 import org.junit.Test;
 
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package main.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
 /**
  * 당신의 조카 생일을 위한 케익을 담당하고 있으며 그녀의 총 나이의 매해 마다 하나의 촛불을 가질 것을 결정 하였습니다.

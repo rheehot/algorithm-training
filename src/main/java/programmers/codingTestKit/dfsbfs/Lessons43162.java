@@ -1,4 +1,4 @@
-package main.java.programmers.codingTestKit.dfsbfs;
+package programmers.codingTestKit.dfsbfs;
 
 import java.util.Arrays;
 import java.util.HashMap;

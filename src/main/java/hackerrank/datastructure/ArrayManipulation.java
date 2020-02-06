@@ -1,4 +1,4 @@
-package main.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
 /**
  * 쿼리 a , b , k 가 주어 진다.

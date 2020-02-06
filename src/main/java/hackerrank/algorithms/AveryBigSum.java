@@ -1,4 +1,4 @@
-package main.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
 public class AveryBigSum {
     // Complete the aVeryBigSum function below.

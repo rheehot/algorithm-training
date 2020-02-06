@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.DynamicPrograming;
+package hackerrank.interviewkit.DynamicPrograming;
 
-import main.java.hackerrank.interviewkit.DynamincPrograming.MaxArraySum;
+import hackerrank.interviewkit.DynamincPrograming.MaxArraySum;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

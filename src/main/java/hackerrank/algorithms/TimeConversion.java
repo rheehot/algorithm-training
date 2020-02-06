@@ -1,4 +1,4 @@
-package main.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
 /**
  * 12시간 오전/오후 형식으로 시간이 주어졌다. 군사시간(24)으로 변환 하라

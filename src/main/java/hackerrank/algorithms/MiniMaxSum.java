@@ -1,4 +1,4 @@
-package main.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
 /**
  * 5개의 양의 정수가 주어 집니다, 5개의 정수 중 정확히 4개를 합산 하여 계산할 수 있는 최소값과 최대값을 찾는다.

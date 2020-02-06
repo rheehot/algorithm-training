@@ -1,6 +1,6 @@
-package test.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
-import main.java.hackerrank.algorithms.ViralAdvertising;
+import hackerrank.algorithms.ViralAdvertising;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

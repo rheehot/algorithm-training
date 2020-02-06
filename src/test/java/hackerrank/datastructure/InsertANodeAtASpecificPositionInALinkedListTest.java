@@ -1,9 +1,9 @@
-package test.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
-import main.java.LinkedListUtil;
+import hackerrank.LinkedListUtil;
 import org.junit.Test;
 
-import static main.java.hackerrank.datastructure.InsertANodeAtASpecificPositionInALinkedList.insertNodeAtPosition;
+import static hackerrank.datastructure.InsertANodeAtASpecificPositionInALinkedList.insertNodeAtPosition;
 import static org.junit.Assert.assertEquals;
 
 public class InsertANodeAtASpecificPositionInALinkedListTest extends LinkedListUtil {

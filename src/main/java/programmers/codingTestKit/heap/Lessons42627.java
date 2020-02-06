@@ -1,4 +1,4 @@
-package main.java.programmers.codingTestKit.heap;
+package programmers.codingTestKit.heap;
 
 import java.util.Arrays;
 import java.util.Comparator;

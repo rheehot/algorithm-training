@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.StacksAndQueues;
+package hackerrank.interviewkit.StacksAndQueues;
 
-import main.java.hackerrank.interviewkit.StacksAndQueues.ATaleOfTwoStacks;
+import hackerrank.interviewkit.StacksAndQueues.ATaleOfTwoStacks;
 import org.junit.Test;
 
 public class ATaleOfTwoStacksTest {

@@ -1,4 +1,4 @@
-package main.java.programmers.codingTestKit.bruteForce;
+package programmers.codingTestKit.bruteForce;
 
 import java.math.BigInteger;
 import java.util.Arrays;

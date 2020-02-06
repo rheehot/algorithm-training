@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.strings;
+package hackerrank.interviewkit.strings;
 
 /**
  * https://www.hackerrank.com/challenges/alternating-characters

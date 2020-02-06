@@ -1,6 +1,6 @@
-package test.java.leetcode.topInterViewQuestions.medium.arrayAndStrings;
+package leetcode.topInterViewQuestions.medium.arrayAndStrings;
 
-import main.java.leetcode.topInterViewQuestions.medium.arrayAndStrings.SetMatrixZeroes;
+import leetcode.topInterViewQuestions.medium.arrayAndStrings.SetMatrixZeroes;
 import org.junit.Test;
 
 import java.util.Arrays;

@@ -1,6 +1,6 @@
-package test.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
-import main.java.hackerrank.datastructure.DynamicArray;
+import hackerrank.datastructure.DynamicArray;
 import org.junit.Test;
 
 import java.util.ArrayList;

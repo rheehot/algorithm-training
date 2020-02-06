@@ -1,6 +1,5 @@
-package test.java.programmers.codingTestKit.stackAndQueue;
+package programmers.codingTestKit.stackAndQueue;
 
-import main.java.programmers.codingTestKit.stackAndQueue.Lessons42583;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

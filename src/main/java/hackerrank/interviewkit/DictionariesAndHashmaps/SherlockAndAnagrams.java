@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.DictionariesAndHashmaps;
+package hackerrank.interviewkit.DictionariesAndHashmaps;
 
 import java.util.HashMap;
 import java.util.stream.Collectors;

@@ -1,6 +1,6 @@
-package test.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
-import main.java.hackerrank.algorithms.GradingStudents;
+import hackerrank.algorithms.GradingStudents;
 import org.junit.Test;
 
 import java.util.Arrays;

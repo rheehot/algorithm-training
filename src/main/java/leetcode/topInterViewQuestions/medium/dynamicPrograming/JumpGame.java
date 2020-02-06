@@ -1,4 +1,4 @@
-package main.java.leetcode.topInterViewQuestions.medium.dynamicPrograming;
+package leetcode.topInterViewQuestions.medium.dynamicPrograming;
 
 import java.util.Arrays;
 

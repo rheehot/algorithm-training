@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.DictionariesAndHashmaps;
+package hackerrank.interviewkit.DictionariesAndHashmaps;
 
 import com.sun.codemodel.internal.JForEach;
 

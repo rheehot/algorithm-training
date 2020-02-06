@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.graph;
+package hackerrank.interviewkit.graph;
 
-import main.java.hackerrank.interviewkit.graph.ConnectedCellInAGrid;
+import hackerrank.interviewkit.graph.ConnectedCellInAGrid;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

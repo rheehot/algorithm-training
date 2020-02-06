@@ -1,7 +1,6 @@
-package test.java.hackerrank.interviewkit.sorting;
+package hackerrank.interviewkit.sorting;
 
-import java.Player;
-import main.java.hackerrank.interviewkit.sorting.Checker;
+import hackerrank.Player;
 import org.junit.Test;
 
 import java.util.Arrays;

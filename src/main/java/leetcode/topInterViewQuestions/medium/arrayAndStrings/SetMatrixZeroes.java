@@ -1,4 +1,4 @@
-package main.java.leetcode.topInterViewQuestions.medium.arrayAndStrings;
+package leetcode.topInterViewQuestions.medium.arrayAndStrings;
 
 /**
  * Created by kimchanjung on 2020-02-05 4:18 오후

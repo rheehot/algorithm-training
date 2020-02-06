@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.search;
+package hackerrank.interviewkit.search;
 
-import main.java.hackerrank.interviewkit.search.HashTablesIceCreamParlor;
+import hackerrank.interviewkit.search.HashTablesIceCreamParlor;
 import org.junit.Test;
 
 public class HashTablesIceCreamParlorTest {

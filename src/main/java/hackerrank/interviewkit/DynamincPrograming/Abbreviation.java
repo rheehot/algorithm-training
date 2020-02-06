@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.DynamincPrograming;
+package hackerrank.interviewkit.DynamincPrograming;
 
 /**
  * [REMIND]

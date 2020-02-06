@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.RecursionAndBacktracking;
+package hackerrank.interviewkit.RecursionAndBacktracking;
 
-import main.java.hackerrank.interviewkit.RecursionAndBacktracking.FibonacciNumbers;
+import hackerrank.interviewkit.RecursionAndBacktracking.FibonacciNumbers;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

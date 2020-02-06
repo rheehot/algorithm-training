@@ -1,6 +1,6 @@
-package test.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
-import main.java.hackerrank.algorithms.DayOfTheProgramer;
+import hackerrank.algorithms.DayOfTheProgramer;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

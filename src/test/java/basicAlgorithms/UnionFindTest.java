@@ -1,6 +1,5 @@
-package test.java.basicAlgorithms;
+package basicAlgorithms;
 
-import main.java.basicAlgorithms.UnionFind;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

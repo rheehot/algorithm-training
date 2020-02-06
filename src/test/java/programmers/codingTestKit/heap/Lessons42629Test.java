@@ -1,6 +1,6 @@
-package test.java.programmers.codingTestKit.heap;
+package programmers.codingTestKit.heap;
 
-import main.java.programmers.codingTestKit.heap.Lessons42629;
+import programmers.codingTestKit.heap.Lessons42629;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -1,6 +1,6 @@
-package test.java.basicAlgorithms;
+package basicAlgorithms;
 
-import main.java.basicAlgorithms.MinHeap;
+import basicAlgorithms.MinHeap;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

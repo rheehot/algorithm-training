@@ -1,7 +1,6 @@
-package test.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
-import java.Node;
-import main.java.hackerrank.datastructure.IsThisBinarySearchTree;
+import hackerrank.Node;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;

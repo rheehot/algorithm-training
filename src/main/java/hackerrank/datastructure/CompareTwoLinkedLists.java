@@ -1,6 +1,6 @@
-package main.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
-import main.java.LinkedListUtil;
+import hackerrank.LinkedListUtil;
 
 /**
  * 두 링크드 리스트를 비교하여 같으면 1아니면 0 리턴

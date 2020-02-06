@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.search;
+package hackerrank.interviewkit.search;
 
-import main.java.hackerrank.interviewkit.search.MinimumTimeRequired;
+import hackerrank.interviewkit.search.MinimumTimeRequired;
 import org.junit.Test;
 
 import java.util.Arrays;

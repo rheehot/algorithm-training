@@ -1,4 +1,4 @@
-package test.java.hackerrank.interviewkit.miscellaneous;
+package hackerrank.interviewkit.miscellaneous;
 
 import org.junit.Test;
 

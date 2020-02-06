@@ -1,4 +1,4 @@
-package main.java.programmers.codingTestKit.dynamicPrograming;
+package programmers.codingTestKit.dynamicPrograming;
 
 import java.util.Arrays;
 

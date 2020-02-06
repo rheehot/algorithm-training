@@ -1,4 +1,4 @@
-package main.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
 /**
  * 율리우스력, 그레고리력에서 각각 윤년을 계산한다

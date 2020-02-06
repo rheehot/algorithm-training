@@ -1,4 +1,4 @@
-package main.java.programmers.codingTestKit.stackAndQueue;
+package programmers.codingTestKit.stackAndQueue;
 
 import java.util.*;
 import java.util.stream.Collectors;

@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.DictionariesAndHashmaps;
+package hackerrank.interviewkit.DictionariesAndHashmaps;
 
 /**
  * https://www.hackerrank.com/challenges/ctci-ransom-note

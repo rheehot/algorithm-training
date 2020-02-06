@@ -1,4 +1,4 @@
-package java;
+package hackerrank;
 
 public class Player {
     public String name;

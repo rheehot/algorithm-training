@@ -1,4 +1,4 @@
-package main.java.hackerrank.datastructure.huffman;
+package hackerrank.datastructure.huffman;
 
 public class Node implements Comparable<Node> {
     public  int frequency; // the frequency of this tree

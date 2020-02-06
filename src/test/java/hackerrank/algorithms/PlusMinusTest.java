@@ -1,6 +1,6 @@
-package test.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
-import main.java.hackerrank.algorithms.PlusMinus;
+import hackerrank.algorithms.PlusMinus;
 import org.junit.Test;
 
 public class PlusMinusTest {

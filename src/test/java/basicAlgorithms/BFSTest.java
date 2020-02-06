@@ -1,7 +1,7 @@
-package test.java.basicAlgorithms;
+package basicAlgorithms;
 
 
-import main.java.basicAlgorithms.BFS;
+import basicAlgorithms.BFS;
 import org.junit.Test;
 
 import java.lang.reflect.Array;

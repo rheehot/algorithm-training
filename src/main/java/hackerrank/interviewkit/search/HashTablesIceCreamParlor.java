@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.search;
+package hackerrank.interviewkit.search;
 
 import java.util.Arrays;
 import java.util.HashMap;

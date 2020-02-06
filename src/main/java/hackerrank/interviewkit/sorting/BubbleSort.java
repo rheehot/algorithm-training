@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.sorting;
+package hackerrank.interviewkit.sorting;
 
 /**
  * https://www.hackerrank.com/challenges/ctci-bubble-sort

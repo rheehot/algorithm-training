@@ -1,6 +1,6 @@
-package main.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
-import main.java.LinkedListUtil;
+import hackerrank.LinkedListUtil;
 
 /**
  * 링크드 리스트가 tail -> null 이 아니고 다시 앞의 노드를 next로 가지고 있으면 순환인데 이런 경우 true 리턴

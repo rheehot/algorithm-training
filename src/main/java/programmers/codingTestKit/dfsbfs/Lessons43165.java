@@ -1,4 +1,4 @@
-package main.java.programmers.codingTestKit.dfsbfs;
+package programmers.codingTestKit.dfsbfs;
 
 /**
  * https://programmers.co.kr/learn/courses/30/lessons/43165

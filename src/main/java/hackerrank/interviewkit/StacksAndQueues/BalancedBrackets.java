@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.StacksAndQueues;
+package hackerrank.interviewkit.StacksAndQueues;
 
 import java.util.Stack;
 

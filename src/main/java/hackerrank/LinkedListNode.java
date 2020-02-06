@@ -1,4 +1,4 @@
-package main.java;
+package hackerrank;
 
 public class LinkedListNode {
     public int data;

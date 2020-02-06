@@ -1,6 +1,6 @@
-package test.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
-import main.java.hackerrank.algorithms.AppleAndOrange;
+import hackerrank.algorithms.AppleAndOrange;
 import org.junit.Test;
 
 public class AppleAndOrangeTest {

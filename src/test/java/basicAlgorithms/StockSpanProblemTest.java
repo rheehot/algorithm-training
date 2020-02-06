@@ -1,6 +1,6 @@
-package test.java.basicAlgorithms;
+package basicAlgorithms;
 
-import main.java.basicAlgorithms.StockSpanProblem;
+import basicAlgorithms.StockSpanProblem;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

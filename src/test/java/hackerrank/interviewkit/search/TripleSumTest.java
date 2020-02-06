@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.search;
+package hackerrank.interviewkit.search;
 
-import main.java.hackerrank.interviewkit.search.TripleSum;
+import hackerrank.interviewkit.search.TripleSum;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

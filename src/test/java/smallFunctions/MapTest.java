@@ -1,4 +1,4 @@
-package test.java.smallFunctions;
+package smallFunctions;
 
 import org.junit.Test;
 

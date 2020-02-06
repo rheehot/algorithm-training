@@ -1,4 +1,4 @@
-package main.java.programmers.codingTestKit.greedy;
+package programmers.codingTestKit.greedy;
 
 /**
  * Created by kimchanjung on 2020-02-02 3:38 오후

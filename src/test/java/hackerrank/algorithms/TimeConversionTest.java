@@ -1,6 +1,6 @@
-package test.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
-import main.java.hackerrank.algorithms.TimeConversion;
+import hackerrank.algorithms.TimeConversion;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;

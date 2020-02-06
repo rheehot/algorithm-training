@@ -1,7 +1,6 @@
-package test.java.hackerrank.interviewkit.LinkedList;
+package hackerrank.interviewkit.LinkedList;
 
-import main.java.LinkedListNode;
-import main.java.hackerrank.interviewkit.LinkedList.DetectACycle;
+import hackerrank.LinkedListNode;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

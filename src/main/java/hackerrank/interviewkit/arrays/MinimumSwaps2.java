@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.arrays;
+package hackerrank.interviewkit.arrays;
 
 import java.util.Arrays;
 

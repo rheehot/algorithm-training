@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.strings;
+package hackerrank.interviewkit.strings;
 
-import main.java.hackerrank.interviewkit.strings.CommonChild;
+import hackerrank.interviewkit.strings.CommonChild;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

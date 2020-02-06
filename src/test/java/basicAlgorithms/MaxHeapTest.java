@@ -1,6 +1,6 @@
-package test.java.basicAlgorithms;
+package basicAlgorithms;
 
-import main.java.basicAlgorithms.MaxHeap;
+import basicAlgorithms.MaxHeap;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

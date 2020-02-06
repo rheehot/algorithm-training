@@ -1,4 +1,4 @@
-package main.java.basicAlgorithms;
+package basicAlgorithms;
 
 
 /**

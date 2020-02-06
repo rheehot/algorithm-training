@@ -1,6 +1,6 @@
-package test.java.programmers.codingTestKit.dynamicPrograming;
+package programmers.codingTestKit.dynamicPrograming;
 
-import main.java.programmers.codingTestKit.dynamicPrograming.Lessons43104;
+import programmers.codingTestKit.dynamicPrograming.Lessons43104;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

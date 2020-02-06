@@ -1,6 +1,6 @@
-package test.java.leetcode.topInterViewQuestions.medium.dynamicPrograming;
+package leetcode.topInterViewQuestions.medium.dynamicPrograming;
 
-import main.java.leetcode.topInterViewQuestions.medium.dynamicPrograming.JumpGame;
+import leetcode.topInterViewQuestions.medium.dynamicPrograming.JumpGame;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

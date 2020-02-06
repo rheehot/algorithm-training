@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.GreedyAlgorithms;
+package hackerrank.interviewkit.GreedyAlgorithms;
 
-import main.java.hackerrank.interviewkit.GreedyAlgorithms.ReverseShuffleMerge;
+import hackerrank.interviewkit.GreedyAlgorithms.ReverseShuffleMerge;
 import org.junit.Test;
 
 public class ReverseShuffleMergeTest {

@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.strings;
+package hackerrank.interviewkit.strings;
 
 import java.util.*;
 

@@ -1,6 +1,5 @@
-package main.java.basicAlgorithms;
+package basicAlgorithms;
 
-import javax.lang.model.element.Element;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 

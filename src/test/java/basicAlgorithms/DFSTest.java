@@ -1,6 +1,6 @@
-package test.java.basicAlgorithms;
+package basicAlgorithms;
 
-import main.java.basicAlgorithms.DFS;
+import basicAlgorithms.DFS;
 import org.junit.Assert;
 import org.junit.Test;
 

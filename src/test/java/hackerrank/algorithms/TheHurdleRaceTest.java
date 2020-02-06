@@ -1,6 +1,6 @@
-package test.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
-import main.java.hackerrank.algorithms.TheHurdleRace;
+import hackerrank.algorithms.TheHurdleRace;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -1,6 +1,6 @@
-package test.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
-import main.java.hackerrank.algorithms.DiagonalDifference;
+import hackerrank.algorithms.DiagonalDifference;
 import org.junit.Test;
 
 import java.util.ArrayList;

@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.strings;
+package hackerrank.interviewkit.strings;
 
-import main.java.hackerrank.interviewkit.strings.SherlockAndTheValidString;
+import hackerrank.interviewkit.strings.SherlockAndTheValidString;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

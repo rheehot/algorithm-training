@@ -1,6 +1,6 @@
-package test.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
-import main.java.hackerrank.datastructure.ArrayManipulation;
+import hackerrank.datastructure.ArrayManipulation;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;

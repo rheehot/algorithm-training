@@ -1,8 +1,7 @@
-package main.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
-import apple.laf.JRSUIUtils;
-import java.Node;
-import java.TreeUtil;
+import hackerrank.Node;
+import hackerrank.TreeUtil;
 
 /**
  * 이진 트리의 특정 레벨을 좌, 우 를 변경하는 것이 목표

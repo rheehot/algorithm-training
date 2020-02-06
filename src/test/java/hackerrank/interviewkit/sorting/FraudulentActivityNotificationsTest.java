@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.sorting;
+package hackerrank.interviewkit.sorting;
 
-import main.java.hackerrank.interviewkit.sorting.FraudulentActivityNotifications;
+import hackerrank.interviewkit.sorting.FraudulentActivityNotifications;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

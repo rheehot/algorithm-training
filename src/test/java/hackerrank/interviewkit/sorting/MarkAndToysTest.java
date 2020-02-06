@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.sorting;
+package hackerrank.interviewkit.sorting;
 
-import main.java.hackerrank.interviewkit.sorting.MarkAndToys;
+import hackerrank.interviewkit.sorting.MarkAndToys;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

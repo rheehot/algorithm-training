@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.DictionariesAndHashmaps;
+package hackerrank.interviewkit.DictionariesAndHashmaps;
 
-import main.java.hackerrank.interviewkit.DictionariesAndHashmaps.RansomNote;
+import hackerrank.interviewkit.DictionariesAndHashmaps.RansomNote;
 import org.junit.Test;
 
 public class RansomNoteTest {

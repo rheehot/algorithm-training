@@ -1,14 +1,7 @@
-package test.java.programmers.codingTestKit.stackAndQueue;
+package programmers.codingTestKit.stackAndQueue;
 
-import main.java.programmers.codingTestKit.stackAndQueue.Lessons42586;
 import org.junit.Assert;
 import org.junit.Test;
-
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by kimchanjung on 2020-01-20 3:48 오후

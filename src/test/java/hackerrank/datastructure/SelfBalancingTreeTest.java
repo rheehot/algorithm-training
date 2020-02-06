@@ -1,6 +1,6 @@
-package test.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
-import main.java.hackerrank.datastructure.SelfBalancingTree;
+import hackerrank.datastructure.SelfBalancingTree;
 import org.junit.Test;
 
 public class SelfBalancingTreeTest {

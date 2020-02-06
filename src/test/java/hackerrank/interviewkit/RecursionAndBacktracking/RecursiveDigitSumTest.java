@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.RecursionAndBacktracking;
+package hackerrank.interviewkit.RecursionAndBacktracking;
 
-import main.java.hackerrank.interviewkit.RecursionAndBacktracking.RecursiveDigitSum;
+import hackerrank.interviewkit.RecursionAndBacktracking.RecursiveDigitSum;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

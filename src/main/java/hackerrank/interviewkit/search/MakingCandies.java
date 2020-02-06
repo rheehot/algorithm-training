@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.search;
+package hackerrank.interviewkit.search;
 
 /**
  * [REMIND]

@@ -1,9 +1,6 @@
-package main.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
-import java.Node;
-
-import java.util.LinkedList;
-import java.util.Queue;
+import hackerrank.Node;
 
 /**
  * 주어진 아이템들을 하나씩 노드를 생성하면서 이진 트리를 만든다

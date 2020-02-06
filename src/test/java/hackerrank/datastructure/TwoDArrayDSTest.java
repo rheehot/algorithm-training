@@ -1,6 +1,6 @@
-package test.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
-import main.java.hackerrank.datastructure.TwoDArrayDS;
+import hackerrank.datastructure.TwoDArrayDS;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;

@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.DictionariesAndHashmaps;
+package hackerrank.interviewkit.DictionariesAndHashmaps;
 
-import main.java.hackerrank.interviewkit.DictionariesAndHashmaps.TwoStrings;
+import hackerrank.interviewkit.DictionariesAndHashmaps.TwoStrings;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

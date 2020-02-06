@@ -1,6 +1,6 @@
-package test.java.hackerrank.interviewkit.sorting;
+package hackerrank.interviewkit.sorting;
 
-import main.java.hackerrank.interviewkit.sorting.BubbleSort;
+import hackerrank.interviewkit.sorting.BubbleSort;
 import org.junit.Test;
 
 public class BubbleSortTest {

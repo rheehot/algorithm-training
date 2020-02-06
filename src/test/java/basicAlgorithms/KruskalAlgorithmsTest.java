@@ -1,6 +1,5 @@
-package test.java.basicAlgorithms;
+package basicAlgorithms;
 
-import main.java.basicAlgorithms.KruskalAlgorithms;
 import org.junit.Test;
 
 import java.util.ArrayList;

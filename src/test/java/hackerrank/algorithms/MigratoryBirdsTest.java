@@ -1,6 +1,6 @@
-package test.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
-import main.java.hackerrank.algorithms.MigratoryBirds;
+import hackerrank.algorithms.MigratoryBirds;
 import org.junit.Test;
 
 import java.util.Arrays;

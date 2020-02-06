@@ -1,4 +1,4 @@
-package main.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
 /**
  * 샘의 집에는 풍성한 열매를 맺는 사과나무와 오랜지 나무가 있다. 아래 다이어그램에서, 빨간 지역은 그의 집을 나타낸다.

@@ -1,4 +1,4 @@
-package main.java.hackerrank.interviewkit.RecursionAndBacktracking;
+package hackerrank.interviewkit.RecursionAndBacktracking;
 
 /**
  * https://www.hackerrank.com/challenges/recursive-digit-sum

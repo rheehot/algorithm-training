@@ -1,6 +1,6 @@
-package test.java.programmers.codingTestKit.bruteForce;
+package programmers.codingTestKit.bruteForce;
 
-import main.java.programmers.codingTestKit.bruteForce.Lessons42839;
+import programmers.codingTestKit.bruteForce.Lessons42839;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

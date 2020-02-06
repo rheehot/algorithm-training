@@ -1,11 +1,11 @@
-package test.java.leetcode.topInterViewQuestions.medium.linkedList;
+package leetcode.topInterViewQuestions.medium.linkedList;
 
 
-import main.java.leetcode.topInterViewQuestions.medium.linkedList.AddTwoNumbersSolution;
+import leetcode.topInterViewQuestions.medium.linkedList.AddTwoNumbersSolution;
 
 import org.junit.Test;
 
-import static main.java.leetcode.topInterViewQuestions.medium.linkedList.AddTwoNumbersSolution.*;
+import static leetcode.topInterViewQuestions.medium.linkedList.AddTwoNumbersSolution.*;
 import static org.junit.Assert.*;
 
 /**

@@ -1,6 +1,6 @@
-package main.java.hackerrank.datastructure;
+package hackerrank.datastructure;
 
-import main.java.LinkedListUtil;
+import hackerrank.LinkedListUtil;
 
 /**
  * 두개의 링크드 리스트는 어떤 지점에서 둘이 합쳐 져 있다 이 합쳐진 지점을 찾는 것

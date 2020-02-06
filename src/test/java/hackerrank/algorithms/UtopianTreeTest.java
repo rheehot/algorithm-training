@@ -1,6 +1,6 @@
-package test.java.hackerrank.algorithms;
+package hackerrank.algorithms;
 
-import main.java.hackerrank.algorithms.UtopianTree;
+import hackerrank.algorithms.UtopianTree;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
