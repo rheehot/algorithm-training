@@ -21,6 +21,4 @@ public class Lessons42898 {
         if (matrix[row][col] > 0) return matrix[row][col];
         return matrix[row][col] = (recursive(row, col - 1) + recursive(row - 1, col)) % 1000000007;
     }
-
-
 }

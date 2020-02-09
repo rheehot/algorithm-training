@@ -36,7 +36,7 @@ public class MapTest {
 
         // 키가 없어도 실행됨 키가 없는 경우는 값이 null
         map.compute(10, (k, v) -> {
-            System.out.println(k + "," + v);
+            System.out.println("computed fn = k + "+k+" , v = " + v);
                     return 1;
         });
 
@@ -57,8 +57,12 @@ public class MapTest {
         map.computeIfAbsent(3, k -> 1);
         System.out.println("computeIfAbsent 3 = "+map.get(3));
 
-        // key 1 이 있기 때문에 key에 아무런 영향을 주지 않는다.
-        map.computeIfAbsent(1, k -> 0);
+        // key 1 이 있기 때문에 수행하지 않는다.
+        map.computeIfAbsent(100, k -> {
+            System.out.printf("k"+k);
+            return 1;
+        });
+
         System.out.println("computeIfAbsent 1 = "+map.get(1));
 
         // key 1 이 있으면 -> 함수를 실행한다 originalValue key 1의 현재값 3 , isNullValue는 5
@@ -66,8 +70,12 @@ public class MapTest {
         System.out.println("merge 1 = "+merge);
 
         // Key 2 가 없으면 설정값 5를 입력한다.
-        map.merge(2, 5, (originalValue, isNullValue) -> originalValue+isNullValue);
-        System.out.println("merge 2 = "+map.get(2));
+        map.merge(1, 5, (originalValue, isNullValue) -> {
+            System.out.println("ss = "+originalValue+","+isNullValue);
+            return 1;
+        });
+
+        System.out.println("merge 2 = "+map.get(1));
 
     }
 
