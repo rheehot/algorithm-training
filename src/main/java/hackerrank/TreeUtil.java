@@ -5,19 +5,16 @@ import java.util.Queue;
 
 public class TreeUtil {
     public static Node insert(Node root, int data) {
-        if (root == null) {
-            return new Node(data);
+        if (root == null) return new Node(data);
+
+        if (data <= root.data) {
+            root.left = insert(root.left, data);
         } else {
-            Node cur;
-            if (data <= root.data) {
-                cur = insert(root.left, data);
-                root.left = cur;
-            } else {
-                cur = insert(root.right, data);
-                root.right = cur;
-            }
-            return root;
+            root.right = insert(root.right, data);
         }
+
+        return root;
+
     }
 
     public static Node createTree(int[] items) {
@@ -40,7 +37,7 @@ public class TreeUtil {
         }
 
         printInOrder(root.left);
-        System.out.print(root.data+"("+getHeight(root)+") -> ");
+        System.out.print(root.data + "(" + getHeight(root) + ") -> ");
         printInOrder(root.right);
     }
 
@@ -51,7 +48,7 @@ public class TreeUtil {
         while (!queue.isEmpty()) {
             Node node = queue.poll();
 
-            System.out.print(root.data+"("+getHeight(root)+") -> ");
+            System.out.print(root.data + "(" + getHeight(root) + ") -> ");
 
             if (node.left != null) {
                 queue.offer(node.left);
