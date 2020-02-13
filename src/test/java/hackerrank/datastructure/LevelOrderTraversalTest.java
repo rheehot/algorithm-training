@@ -10,7 +10,7 @@ public class LevelOrderTraversalTest {
     public void test() {
         //Given
         // 8 5 10 4 6 9 11
-        int[] items = {8, 5, 10, 4, 6, 9, 11};
+        int[] items = {8, 5, 10, 9, 11, 4, 6};
         Node root = TreeUtil.createTree(items);
         //When
         LevelOrderTraversal.levelOrder(root);
