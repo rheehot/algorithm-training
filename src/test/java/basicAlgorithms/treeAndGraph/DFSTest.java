@@ -1,14 +1,11 @@
-package basicAlgorithms;
+package basicAlgorithms.treeAndGraph;
 
-import basicAlgorithms.DFS;
+import basicAlgorithms.treeAndGraph.DFS;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Stack;
-
-import static org.junit.Assert.*;
 
 public class DFSTest {
 

@@ -1,7 +1,5 @@
 package leetcode.topInterViewQuestions.medium.arrayAndStrings;
 
-import java.util.stream.IntStream;
-
 /**
  * Created by kimchanjung on 2020-02-13 2:48 오후
  * https://leetcode.com/explore/interview/card/top-interview-questions-medium/103/array-and-strings/779/
@@ -21,6 +19,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
         for (int i = 1; i < s.length(); i++) {
             String str = s.substring(start, i);
+            System.out.println(str);
             max = Math.max(str.length(), max);
 
             if (str.indexOf(s.charAt(i)) > -1) {

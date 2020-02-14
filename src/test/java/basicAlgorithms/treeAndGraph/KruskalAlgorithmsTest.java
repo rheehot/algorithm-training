@@ -1,11 +1,10 @@
-package basicAlgorithms;
+package basicAlgorithms.treeAndGraph;
 
+import basicAlgorithms.treeAndGraph.KruskalAlgorithms;
 import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 public class KruskalAlgorithmsTest {
 

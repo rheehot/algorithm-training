@@ -2,24 +2,37 @@ package smallFunctions;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * 맵 데이터와 함께 선
  * https://www.baeldung.com/java-initialize-hashmap
+ * https://www.baeldung.com/java-hashmap-sort
  */
 public class MapTest {
 
     @Test
-    public void test() {
+    public void MAP선() {
         HashMap<Integer, Integer> map = new HashMap<>();
         map.put(2, 1);
         map.put(1, 1);
         map.put(1, 10);
+        System.out.println(map);
 
+        Map<Integer, Integer> map2  = new HashMap() {{
+            put(1, 2);
+            put(2, 4);
+        }};
+        System.out.println(map2);
 
-        map.forEach((k, v) -> System.out.println(k+","+v));
+        int[][] arr = new int[][]{{1, 2}, {3, 4}};
+        Map<Integer, Integer> map3 = Arrays.stream(arr).collect(Collectors.toMap(v -> (Integer) v[0], v -> (Integer) v[1]));
+        System.out.println(map3);
+
     }
 
     @Test
@@ -94,5 +107,19 @@ public class MapTest {
         System.out.println("computeIfAbsent 1 = "+map.get(1));
         System.out.println(integer);
 
+    }
+
+    @Test
+    public void MAP정렬() {
+        Map<Integer, Integer> map  = new HashMap() {{
+            put(1, 2);
+            put(2, 4);
+        }};
+
+        map.entrySet()
+                .stream()
+                .sorted(Map.Entry.comparingByKey(Comparator.reverseOrder()))
+                .map(Map.Entry::getKey)
+                .forEach(System.out::println);
     }
 }

@@ -1,6 +1,6 @@
-package util;
+package basicAlgorithms.sorting;
 
-import basicAlgorithms.MergeSort;
+import basicAlgorithms.sorting.MergeSort;
 import org.junit.Test;
 
 import java.util.Arrays;

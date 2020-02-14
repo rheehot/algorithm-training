@@ -144,6 +144,6 @@ public class ConvertTypeTest {
     public void INT_배열을_LIST_변환() {
         int[] nums = {1, 2, 3, 4};
         List<Integer> collect = Arrays.stream(nums).boxed().collect(Collectors.toList());
-        List<Integer> arrayList = new ArrayList(Arrays.asList(nums));
+        collect.forEach(v -> System.out.println(v));
     }
 }

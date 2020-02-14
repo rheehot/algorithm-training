@@ -1,13 +1,10 @@
-package basicAlgorithms;
+package basicAlgorithms.treeAndGraph;
 
 
-import basicAlgorithms.BFS;
+import basicAlgorithms.treeAndGraph.BFS;
 import org.junit.Test;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.List;
 
 import static org.junit.Assert.assertArrayEquals;

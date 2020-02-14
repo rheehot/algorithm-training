@@ -1,9 +1,10 @@
-package basicAlgorithms;
+package basicAlgorithms.sorting;
 
 import java.util.Arrays;
 
 /**
  * 계수정렬
+ * 시간 복잡도 - O(n)
  * 원리
  * 비정렬된 배열
  * [2,1,1,2,3]

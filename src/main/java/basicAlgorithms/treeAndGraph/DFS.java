@@ -1,4 +1,4 @@
-package basicAlgorithms;
+package basicAlgorithms.treeAndGraph;
 
 import java.util.*;
 

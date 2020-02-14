@@ -1,4 +1,4 @@
-package basicAlgorithms;
+package basicAlgorithms.treeAndGraph;
 
 import hackerrank.Node;
 import hackerrank.TreeUtil;

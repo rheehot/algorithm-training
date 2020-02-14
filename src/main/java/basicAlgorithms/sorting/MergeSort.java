@@ -1,8 +1,9 @@
-package basicAlgorithms;
+package basicAlgorithms.sorting;
 
 
 /**
  * 병합정렬
+ * 시간복잡도 - O(n log n)
  *
  * 4 3 2 1 있는 경우
  * 원소가 1개가 될때 까지 2개로 나눈다.

@@ -1,8 +1,7 @@
-package basicAlgorithms;
+package basicAlgorithms.treeAndGraph;
 
+import basicAlgorithms.treeAndGraph.Dijkstra;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class DijkstraTest {
     @Test
