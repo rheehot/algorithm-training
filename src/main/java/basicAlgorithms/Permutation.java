@@ -25,15 +25,15 @@ package basicAlgorithms;
  *               2 x 1 (n-r)!        2
  */
 public class Permutation {
-    public static void perm(int[] arr, int pivot, int n, int r) {
+    public static void perm(int[] arr, int pivot, int r) {
         if (pivot == r) {
             print(arr, r);
             return;
         }
 
-        for (int i = pivot; i < n; i++) {
+        for (int i = pivot; i < arr.length; i++) {
             swap(arr, i, pivot);
-            perm(arr, pivot + 1, n, r);
+            perm(arr, pivot + 1, r);
             swap(arr, i, pivot);
         }
     }
