@@ -7,11 +7,10 @@ public class BinarySearch {
     public static int binarySearch(int[] arr, int target) {
         int low = 0;
         int high = arr.length - 1;
-        int mid;
 
         while (low <= high) {
 
-            mid = (low + high) / 2;
+            int mid = (low + high) / 2;
             System.out.println(mid);
 
             if (arr[mid] == target) {
