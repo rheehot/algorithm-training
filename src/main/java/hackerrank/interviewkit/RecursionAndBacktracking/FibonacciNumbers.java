@@ -2,6 +2,8 @@ package hackerrank.interviewkit.RecursionAndBacktracking;
 
 /**
  * https://www.hackerrank.com/challenges/ctci-fibonacci-numbers
+ * [Recursion: Fibonacci Numbers]
+ * [EASY]
  * 기초적인 피보나치 수열 문제
  *
  * 점화식은

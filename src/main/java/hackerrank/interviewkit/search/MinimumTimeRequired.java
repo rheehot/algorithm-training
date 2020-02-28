@@ -3,8 +3,11 @@ package hackerrank.interviewkit.search;
 import java.util.Arrays;
 
 /**
- * [REMIND]
  * https://www.hackerrank.com/challenges/minimum-time-required
+ * [Minimum Time Required]
+ * [MEDIUM]
+ * [REMIND]
+ *
  *  2 , 3 있다
  *  2틀에 1개 생성
  *  3일에 1개 생성

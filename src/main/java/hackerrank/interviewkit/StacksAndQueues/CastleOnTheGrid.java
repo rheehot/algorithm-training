@@ -7,6 +7,9 @@ import java.util.stream.IntStream;
 
 /**
  * https://www.hackerrank.com/challenges/castle-on-the-grid
+ * [Castle on the Grid]
+ * [MEDIUM]
+ *
  * BFS 넓이 우선 탐색 알고리즘을 이용한다.
  * 현재 노드에서 연결된 노드가 있다면 큐에 넣는다
  * 큐에 들어간 노드를 꺼내어 그 노드에 연결된 노드가 있다면 다시 큐에 넣는다.

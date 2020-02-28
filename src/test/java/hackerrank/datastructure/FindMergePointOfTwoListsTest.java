@@ -1,6 +1,7 @@
 package hackerrank.datastructure;
 
 import hackerrank.LinkedListUtil;
+import hackerrank.interviewkit.LinkedList.FindMergePointOfTwoLists;
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;

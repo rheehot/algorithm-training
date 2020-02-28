@@ -7,6 +7,12 @@ import java.util.stream.*;
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
+/**
+ * https://www.hackerrank.com/challenges/compare-the-triplets/
+ * [Compare the Triplets]
+ * [EASY]
+ *
+ */
 public class CompareTheTriplets {
 
     // Complete the compareTriplets function below.

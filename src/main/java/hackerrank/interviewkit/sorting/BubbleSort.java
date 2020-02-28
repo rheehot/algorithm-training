@@ -2,6 +2,9 @@ package hackerrank.interviewkit.sorting;
 
 /**
  * https://www.hackerrank.com/challenges/ctci-bubble-sort
+ * [Sorting: Bubble Sort]
+ * [EASY]
+ *
  */
 public class BubbleSort {
 

@@ -3,6 +3,10 @@ package hackerrank.algorithms;
 import java.util.List;
 
 /**
+ * https://www.hackerrank.com/challenges/the-birthday-bar/
+ * [Birthday Chocolate]
+ * [EASY]
+ *
  * 릴리는 초코랫바를 가지고 있다. 그녀가 그의 생일을 위해 론과 공유하기를 원하는 것입니다. 각 사각형에는 정수가 있습니다.
  * 그녀는 선택된 바의 연속적인 조각을 공유하기위서 결정합니다. 그런 조각의 길이는 론의 생월과 그의 생일과 같은 사각정 숫자의 합산과 일치합니다.
  * 당신은 그녀가 초코랫을 나눌 수 있는 방법이 몇개나 되는지 결정해야합니다.

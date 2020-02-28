@@ -3,6 +3,10 @@ package hackerrank.datastructure;
 import hackerrank.LinkedListUtil;
 
 /**
+ * https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle/
+ * [Cycle Detection]
+ * [EASY]
+ *
  * 링크드 리스트가 tail -> null 이 아니고 다시 앞의 노드를 next로 가지고 있으면 순환인데 이런 경우 true 리턴
  *
  * 1 -> 2 -> 3 -> null  = false

@@ -2,6 +2,12 @@ package hackerrank.algorithms;
 
 import java.util.List;
 
+/**
+ * https://www.hackerrank.com/challenges/diagonal-difference/
+ * [Diagonal Difference]
+ * [EASY]
+ *
+ */
 public class DiagonalDifference {
 
     public static int diagonalDifference(List<List<Integer>> arr) {

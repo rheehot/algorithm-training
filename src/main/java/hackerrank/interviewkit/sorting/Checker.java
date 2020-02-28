@@ -7,7 +7,9 @@ import java.util.Comparator;
 
 /**
  * https://www.hackerrank.com/challenges/ctci-comparator-sorting
- * Comparator
+ * [Sorting: Comparator]
+ * [MEDIUM]
+ *
  *
  * 이문제는 Arrays.sort 메소드를 사용 할때
  * Arrays.sort(array, comparator) 즉 comparator 인터페이스를 구현 하는 문제 이다

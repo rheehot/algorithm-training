@@ -4,6 +4,8 @@ import java.util.*;
 
 /**
  * hackerrank.com/challenges/ctci-bfs-shortest-reach
+ * [BFS: Shortest Reach in a Graph]
+ * [HARD]
  *
  * 그래프에서 출발 노드로 부터 연결된 각노드의 간선 가중치 비용을 출력 하는 문제
  *

@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 /**
  * https://www.hackerrank.com/challenges/triple-sum
+ * [Triple sum]
+ * [MEDIUM]
  *
  * a = 1 3 5
  * b = 2 3

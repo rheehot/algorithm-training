@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 /**
  * https://www.hackerrank.com/challenges/greedy-florist
+ * [Greedy Florist]
+ * [MEDIUM]
+ *
  * 이것도 마찬가지로 문제 설명이 햇갈린다.
  *
  * 1,2,3,4,5 라는 숫자가 있다

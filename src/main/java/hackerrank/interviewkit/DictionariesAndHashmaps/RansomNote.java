@@ -2,6 +2,8 @@ package hackerrank.interviewkit.DictionariesAndHashmaps;
 
 /**
  * https://www.hackerrank.com/challenges/ctci-ransom-note
+ * [Hash Tables: Ransom Note]
+ * [EASY]
  *
  * magazine 에 있는 문자 배열에
  * note 의 각 문자 배열 요소가 모두 일치하는게 들어 있으면 YES 하나라도 일치가 없다면 NO

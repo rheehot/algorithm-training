@@ -5,6 +5,9 @@ import java.util.Map;
 
 /**
  * https://www.hackerrank.com/challenges/ctci-recursive-staircase
+ * [Recursion: Davis' Staircase]
+ * [MEDIUM]
+ *
  * 계단 문제
  * 조건은 1칸 2칸 3칸 씩만 이동 하는 방법이 있다 1,2 칸 식 문제와 다름
  * a1 = 1 가지

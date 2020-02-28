@@ -2,6 +2,8 @@ package hackerrank.algorithms;
 
 /**
  * https://www.hackerrank.com/challenges/electronics-shop/problem
+ * [Electronics Shop]
+ * [EASY]
  */
 
 public class ElectronicsShop {

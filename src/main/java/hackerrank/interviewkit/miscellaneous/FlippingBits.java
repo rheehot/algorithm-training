@@ -2,6 +2,9 @@ package hackerrank.interviewkit.miscellaneous;
 
 /**
  * https://www.hackerrank.com/challenges/flipping-bits/problem
+ * [Flipping bits]
+ * [EASY]
+ *
  * 1 라는 숫자를 32bit 2진수로 표현하면
  * 00000000000000000000000000000001
  * 되고 이것을 뒤집으면

@@ -1,6 +1,7 @@
 package hackerrank.datastructure;
 
 import hackerrank.LinkedListUtil;
+import hackerrank.interviewkit.LinkedList.ReverseADoublyLinkedList;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

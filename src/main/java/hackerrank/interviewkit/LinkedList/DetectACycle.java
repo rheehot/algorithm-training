@@ -7,6 +7,8 @@ import java.util.Set;
 
 /**
  * https://www.hackerrank.com/challenges/ctci-linked-list-cycle
+ * [Linked Lists: Detect a Cycle]
+ * [EASY]
  *
  *  1 -> 2 -> 3 -> 4 -> 5 - 3
  *

@@ -4,6 +4,9 @@ import java.util.Stack;
 
 /**
  * https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks
+ * [Queues: A Tale of Two Stacks]
+ * [MEDIUM]
+ *
  * 숫자가 들어오면 stack으로 만 큐를 만들어 내는 문제 이다 입력과 출력, 삭제를 큐의 작동방식에 맞게 구현한
  * 입력 1
  * 입력 2

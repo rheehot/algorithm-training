@@ -1,6 +1,10 @@
 package hackerrank.algorithms;
 
 /**
+ * https://www.hackerrank.com/challenges/birthday-cake-candles/
+ * [Birthday Cake Candles]
+ * [EASY]
+ *
  * 당신의 조카 생일을 위한 케익을 담당하고 있으며 그녀의 총 나이의 매해 마다 하나의 촛불을 가질 것을 결정 하였습니다.
  * 그녀가 촛불을 불어서 끌때, 가장 긴 것 중 하나를 불어 끌 수도 있습니다. 당신의 임무는 그녀가 성공적으로 불어 끌수 있는 촛불의 개수를 찾는 것 입니다.
  * <p>

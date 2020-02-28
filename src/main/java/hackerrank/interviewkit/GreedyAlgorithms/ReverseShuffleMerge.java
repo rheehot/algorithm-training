@@ -3,6 +3,11 @@ package hackerrank.interviewkit.GreedyAlgorithms;
 import java.util.Arrays;
 
 /**
+ * https://www.hackerrank.com/challenges/reverse-shuffle-merge
+ * [Reverse Shuffle Merge]
+ * [ADVANCED]
+ * [REMIND]
+ *
  * abcdefg abcdefg
  * gfedcba
  * gfedcvagfedcba

@@ -3,6 +3,10 @@ package hackerrank.algorithms;
 import java.util.List;
 
 /**
+ * https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem
+ * [Beautiful Days at the Movies]
+ * [EASY]
+ *
  * #### a의 최대 공배수의 배수가 b의 약수인 수가 몇개 인지를 구하는 것 ####
  *
  *

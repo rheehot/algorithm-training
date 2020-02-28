@@ -2,6 +2,8 @@ package hackerrank.algorithms;
 
 /**
  * https://www.hackerrank.com/challenges/utopian-tree
+ * [Utopian Tree]
+ * [EASY]
  *
  * 0  1  2  3  4  5   6
  * 1, 2, 3, 6, 7, 14, 15

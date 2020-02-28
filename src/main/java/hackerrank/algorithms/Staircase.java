@@ -1,6 +1,10 @@
 package hackerrank.algorithms;
 
 /**
+ * https://www.hackerrank.com/challenges/staircase/problem?h_r=internal-search
+ * [Staircase]
+ * [EASY]
+ *
  * n = 4인 계단의 크기를 고려하세요.
  * 밑변과 높이가 둘다 n과 같은지 확인 하세요, 그리고 이미지는 # 심볼과 공백을 이용하여 그립니다. 마지막 라인 앞에는 공백이 없습니다.
  * n 사이즈 계단을 나타내는 프로그램을 작성하세요.

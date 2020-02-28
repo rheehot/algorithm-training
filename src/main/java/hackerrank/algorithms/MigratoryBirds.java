@@ -3,6 +3,10 @@ package hackerrank.algorithms;
 import java.util.List;
 
 /**
+ * https://www.hackerrank.com/challenges/migratory-birds
+ * [Migratory Birds]
+ * [EASY]
+ *
  * 1, 2, 2 ,3, 3, 3, 4, 4, 4
  * 이런 형태의 숫자가 있다면
  * 중복된 숫자중에(1개만 있는 숫자는 제외) 회수가 많은 숫자 중에 가장 작은 수

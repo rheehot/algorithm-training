@@ -5,6 +5,8 @@ import java.util.Arrays;
 
 /**
  * https://www.hackerrank.com/challenges/candies
+ * [Candies]
+ * [MEDIUM]
  * 2, 4, 2, 6, 1, 7, 8, 9, 2, 1
  * 위와 같은 학생의 점수가 있다
  * 2, 4 비교 다음 수가 크니 2가 가진 사탕개수 보다 높은 사탕을 준다(최소 사탕개수이니 +1)

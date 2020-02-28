@@ -4,6 +4,9 @@ import java.util.Stack;
 
 /**
  * https://www.hackerrank.com/challenges/balanced-brackets
+ * [Balanced Brackets]
+ * [MEDIUM]
+ *
  * {{()}} => 브라켓이 짝으로 잘 맞게 있는지 확인
  * {([)]} => 이런것 틀림으로 찾는다.
  */

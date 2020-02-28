@@ -3,6 +3,10 @@ package hackerrank.datastructure;
 import hackerrank.LinkedListUtil;
 
 /**
+ * https://www.hackerrank.com/challenges/reverse-a-linked-list/
+ * [Reverse a linked list]
+ * [EASY]
+ *
  * 링크드 리스트 역순
  */
 public class ReverseALinkedList extends LinkedListUtil {

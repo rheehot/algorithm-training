@@ -1,6 +1,10 @@
 package hackerrank.algorithms;
 
 /**
+ * https://www.hackerrank.com/challenges/time-conversion/
+ * [Time Conversion]
+ * [EASY]
+ *
  * 12시간 오전/오후 형식으로 시간이 주어졌다. 군사시간(24)으로 변환 하라
  * 주의: 자정 12:00:00 AM은 12시간제 이며, 00:00:00은 24시간제 이다. 정오 12:00:00PM 12시간제이며, 12:00:00은 24시간제이다.
  *

@@ -3,6 +3,10 @@ package hackerrank.datastructure;
 import hackerrank.LinkedListUtil;
 
 /**
+ * https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/
+ * [Delete a Node]
+ * [EASY]
+ *
  * 특점 위치의 노드 삭제하기
  */
 public class DeleteNode extends LinkedListUtil {

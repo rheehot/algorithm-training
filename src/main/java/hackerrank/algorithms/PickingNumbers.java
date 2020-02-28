@@ -3,6 +3,10 @@ package hackerrank.algorithms;
 import java.util.List;
 
 /**
+ * https://www.hackerrank.com/challenges/picking-numbers/
+ * [Picking Numbers]
+ * [EASY]
+ *
  * 특정 배열에서 각 두요소의 차이 절대 값이 0, 1 인 수의 집합의 개수 중 제일 많은 개수를 찾는다
  *
  * 즉 1, 1, 2, 2, 4, 4, 5, 5, 5 있다면

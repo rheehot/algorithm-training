@@ -1,6 +1,10 @@
 package hackerrank.algorithms;
 
 /**
+ * https://www.hackerrank.com/challenges/kangaroo/
+ * [Kangaroo]
+ * [EASY]
+ *
  * 당신은 여러 동물들과 써커스 쑈를 안무하고 있습니다. 한번의 행동으로, 당신은 양수 방향으로 점프할 준비가 되어 있는 두 줄의 캥거루가 주어 집니다.
  * - 첫번째 캥커루는 x1위치에서 출발하고, 점프 당 v1 비율로 이동 합니다.
  * - 첫번째 캥커루는 x2위치에서 출발하고, 점프 당 v2 비율로 이동 합니다.

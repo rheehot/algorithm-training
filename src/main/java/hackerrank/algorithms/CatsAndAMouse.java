@@ -2,6 +2,8 @@ package hackerrank.algorithms;
 
 /**
  * https://www.hackerrank.com/challenges/cats-and-a-mouse/problem
+ * [Cats and a Mouse]
+ * [EASY]
  *
  * 두고 양이 포지션이 다르고 앞으로 뒤로 1 칸씩 움직일 수 있음
  * 그리고 쥐의 표지션이 있음

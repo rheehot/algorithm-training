@@ -1,5 +1,11 @@
 package hackerrank.algorithms;
 
+/**
+ * https://www.hackerrank.com/challenges/plus-minus
+ * [Plus Minus]
+ * [EASY]
+ *
+ */
 public class PlusMinus {
 
     public static void plusMinus(int[] arr) {

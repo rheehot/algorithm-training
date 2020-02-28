@@ -7,6 +7,8 @@ import java.util.stream.Stream;
 
 /**
  * https://www.hackerrank.com/challenges/two-strings
+ * [Two Strings]
+ * [EASY]
  *
  * 두 스트링
  * helloo

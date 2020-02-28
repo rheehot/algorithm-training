@@ -1,6 +1,10 @@
 package hackerrank.algorithms;
 
 /**
+ * https://www.hackerrank.com/challenges/apple-and-orange
+ * [Apple and Orange]
+ * [EASY]
+ *
  * 샘의 집에는 풍성한 열매를 맺는 사과나무와 오랜지 나무가 있다. 아래 다이어그램에서, 빨간 지역은 그의 집을 나타낸다.
  * 거기서 s는 시작점이고 t는 종료점이다. 사과나무는 그의 집 왼쪽에 있다, 오랜지나무는 그의 집 오른쪽에 있다.
  * 당신은 나무가 하나의 지점에 있다고 가정할 수 있다. 거기서 사과나무는 a 지점에 있고 오랜지나무는 b 지점에 있다.

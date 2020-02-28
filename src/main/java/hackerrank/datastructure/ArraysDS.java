@@ -1,5 +1,10 @@
 package hackerrank.datastructure;
 
+/**
+ * https://www.hackerrank.com/challenges/arrays-ds/
+ * [Arrays - DS]
+ * [EASY]
+ */
 public class ArraysDS {
     public static int[] reverseArray(int[] a) {
 

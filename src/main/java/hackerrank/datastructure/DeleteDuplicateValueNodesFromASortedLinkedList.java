@@ -3,12 +3,15 @@ package hackerrank.datastructure;
 import hackerrank.LinkedListUtil;
 
 /**
- * 중복된 노드를 제거한
+ * https://www.hackerrank.com/challenges/delete-duplicate-value-nodes-from-a-sorted-linked-list/
+ * [Delete duplicate-value nodes from a sorted linked list]
+ * [EASY]
+ * 중복된 노드를 제거한다
  */
 public class DeleteDuplicateValueNodesFromASortedLinkedList extends LinkedListUtil {
 
     /**
-     * 재귀적으로 해
+     * 재귀적으로 해결
      * @param head
      * @return
      */

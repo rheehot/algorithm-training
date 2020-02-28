@@ -8,7 +8,10 @@ import java.util.*;
 import java.util.stream.IntStream;
 
 /**
- * https://www.hackerrank.com/challenges/torque-and-development함
+ * https://www.hackerrank.com/challenges/torque-and-development
+ * [Roads and Libraries]
+ * [MEDIUM]
+ *
  * <p>
  * 도시가 있다 각 도시를 연결하는데 도로  비용, 도서관을 세우는 비용이 존재함
  * <p>

@@ -4,6 +4,8 @@ import java.util.stream.IntStream;
 
 /**
  * https://www.hackerrank.com/challenges/beautiful-days-at-the-movies
+ * [Beautiful Days at the Movies]
+ * [EASY]
  *
  * 시작일, 종료일이 주어진다
  * 10, 14

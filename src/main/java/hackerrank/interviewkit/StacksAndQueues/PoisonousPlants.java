@@ -5,6 +5,8 @@ import java.util.Stack;
 
 /**
  * https://www.hackerrank.com/challenges/poisonous-plants/
+ * [Poisonous Plants]
+ * [HARD]
  *
  * 4 3 7 5 6 4 2 있다고 하면
  * 바로 앞 숫자가 작으면 죽고 반대면 살아 남는다

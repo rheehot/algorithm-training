@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 /**
  * https://www.hackerrank.com/challenges/mark-and-toys
+ * [Mark and Toys]
+ * [EASY]
  *
  * 각 아이템의 합산이 k 이하인 수의 최대 개수
  *

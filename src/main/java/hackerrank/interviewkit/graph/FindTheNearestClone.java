@@ -11,6 +11,9 @@ import java.util.Queue;
 
 /**
  * https://www.hackerrank.com/challenges/find-the-nearest-clone
+ * [Find the nearest clone]
+ * [MEDIUM]
+ *
  * 그래프 용어 정리
  * http://www.ktword.co.kr/word/abbr_view.php?m_temp1=4725
  *

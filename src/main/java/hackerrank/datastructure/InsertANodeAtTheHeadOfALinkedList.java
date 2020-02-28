@@ -3,6 +3,10 @@ package hackerrank.datastructure;
 import hackerrank.LinkedListUtil;
 
 /**
+ * https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list/
+ * [Insert a node at the head of a linked list]
+ * [EASY]
+ *
  * 링크드 리스트의 head에 새노드를 껴넣는다.
  */
 public class InsertANodeAtTheHeadOfALinkedList extends LinkedListUtil {

@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 /**
  * https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array
+ * [Minimum Absolute Difference in an Array]
+ * [EASY]
+ *
  * 1, 2, 3 이 있다면
  * 1 - 2, 1 - 3, 2 - 3 모든 요소들의 차의 절대 값의 크기가 가장 작은 수를 찾는다
  * 여기서 이중 for 문으로 모든 케이스를 다 구하면 timeout 남

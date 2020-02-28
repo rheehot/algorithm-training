@@ -2,6 +2,8 @@ package hackerrank.interviewkit.sorting;
 
 /**
  * https://www.hackerrank.com/challenges/ctci-merge-sort
+ * [Merge Sort: Counting Inversions]
+ * [HARD]
  *
  * 배열을 정렬하는데 필요한 횟수를 찾는 문제다
  * 그냥은 안되고 merge sort를 이용하여 찾으라고 문제에 되어 있따

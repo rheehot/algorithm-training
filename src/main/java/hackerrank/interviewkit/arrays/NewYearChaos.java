@@ -2,6 +2,8 @@ package hackerrank.interviewkit.arrays;
 
 /**
  * https://www.hackerrank.com/challenges/new-year-chaos
+ * [New Year Chaos]
+ * [MEDIUM]
  * 1 2 3 4 5
  * 2 1 5 3 4
  *

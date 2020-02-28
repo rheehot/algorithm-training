@@ -3,6 +3,11 @@ package hackerrank.algorithms;
 import java.io.*;
 import java.util.*;
 
+/**
+ * https://www.hackerrank.com/challenges/simple-array-sum/
+ * [Simple Array Sum]
+ * [EASY]
+ */
 public class SimpleArraySum {
 
     /*

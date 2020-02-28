@@ -8,8 +8,11 @@ import java.util.Arrays;
 import java.util.stream.IntStream;
 
 /**
- * [REMIND]
  * https://www.hackerrank.com/challenges/matrix
+ * [Matrix]
+ * [HARD]
+ * [REMIND]
+ * 
  * 어렵다
  *       (5)   (8)   (5)
  *   (0)  -  1  - (2)  - (4)
@@ -50,8 +53,7 @@ import java.util.stream.IntStream;
  *  작업 수행할때 어느 한 노드가 기계인경우 부모노드를 기계로 만들어 버리므로써 다른 노드를 체크 할때 연결된 노드중에 기계노드가 있다는 것을 알게 되어
  *  서로 기계노드로 연결되어 있다는 것을 판단 할 수 있는 것이다.
  */
-public class
-Matrix {
+public class Matrix {
     private static int[] parent;
     private static boolean[] machinesList;
 

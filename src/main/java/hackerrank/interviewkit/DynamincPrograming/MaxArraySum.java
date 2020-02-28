@@ -4,8 +4,11 @@ import java.util.Arrays;
 import java.util.Vector;
 
 /**
- * [REMIND]
  * https://www.hackerrank.com/challenges/max-array-sum/
+ * [Max Array Sum]
+ * [MEDIUM]
+ * [REMIND]
+ *
  * 너무 어렵다.... ㅠㅠ
  * 3,7,4,6,5
  * 인접 하지 않은 부분 수열의 최대값

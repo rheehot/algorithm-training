@@ -7,6 +7,8 @@ import java.util.stream.Stream;
 
 /**
  * https://www.hackerrank.com/challenges/sherlock-and-anagrams
+ * [Sherlock and Anagrams]
+ * [MEDIUM]
  * <p>
  * abba 가 있다 개별 문자열이 쌍으로 있는 케이스가 몇개 인지 찾는 문제
  * <p>

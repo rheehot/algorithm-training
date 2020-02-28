@@ -1,7 +1,9 @@
 package hackerrank.datastructure;
 
 /**
- *
+ * https://www.hackerrank.com/challenges/sparse-arrays/
+ * [Sparse Arrays]
+ * [MEDIUM]
  */
 public class SparseArrays {
     public static int[] matchingStrings(String[] strings, String[] queries) {

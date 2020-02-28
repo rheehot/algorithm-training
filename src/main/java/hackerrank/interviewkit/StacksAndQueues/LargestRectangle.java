@@ -4,6 +4,9 @@ import java.util.Stack;
 
 /**
  * https://www.hackerrank.com/challenges/largest-rectangle
+ * [Largest Rectangle]
+ * [MEDIUM]
+ *
  * 1 2 3 5 4 라는 높이가 있을 때
  *
  * 높이와 * 넚이 =  사각형 넓이 가 가장 큰 경우를 찾는다

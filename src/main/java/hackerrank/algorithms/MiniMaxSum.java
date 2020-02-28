@@ -1,6 +1,10 @@
 package hackerrank.algorithms;
 
 /**
+ * https://www.hackerrank.com/challenges/mini-max-sum/
+ * [Mini-Max Sum]
+ * [EASY]
+ *
  * 5개의 양의 정수가 주어 집니다, 5개의 정수 중 정확히 4개를 합산 하여 계산할 수 있는 최소값과 최대값을 찾는다.
  * 공백으로 분리된 두개의 long integer로 하나의 라인에 각각 최소값과 최대값을 표시합니다.
  * 예를들어 arr = [1, 3, 5, 7, 9]. 최소값의 합은 1 + 3 + 5 + 7 = 16 그리고 최대값의 합은 3 + 5 + 7 + 9 = 24.

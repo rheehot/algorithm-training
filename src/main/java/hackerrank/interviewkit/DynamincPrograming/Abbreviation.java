@@ -1,8 +1,11 @@
 package hackerrank.interviewkit.DynamincPrograming;
 
 /**
- * [REMIND]
  * https://www.hackerrank.com/challenges/abbr/problem
+ * [Abbreviation]
+ * [MEDIUM]
+ * [REMIND]
+ *
  * 넘 어려움
  * a = baBcd
  * b = ABC

@@ -1,10 +1,12 @@
 package hackerrank.interviewkit.search;
 
 /**
- * [REMIND]
  * https://www.hackerrank.com/challenges/making-candies
- * 정말 지랄같은 문제
- * 알고리즘 문제인지 의심스러움....
+ * [Making Candies]
+ * [HARD]
+ * [REMIND]
+ *
+ * 이진 탐색을 활용하는 문제인데 너무 복잡
  */
 public class MakingCandies {
     public static long minimumPasses(long m, long w, long p, long n) {

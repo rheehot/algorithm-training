@@ -5,6 +5,11 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ * https://www.hackerrank.com/challenges/dynamic-array/
+ * [Dynamic Array]
+ * [EASY]
+ * [REMIND]
+ *
  * 문제 설명 자체가 햇갈리고 어렵다
  * N 개의 리스트가 있고 각 요소에는 또 리스트가 있다는 이야기로 2차원 배열 이라는 말
  * <p>

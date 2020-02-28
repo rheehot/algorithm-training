@@ -3,6 +3,10 @@ package hackerrank.datastructure;
 import hackerrank.LinkedListUtil;
 
 /**
+ * https://www.hackerrank.com/challenges/compare-two-linked-lists/
+ * [Compare two linked lists]
+ * [EASY]
+ *
  * 두 링크드 리스트를 비교하여 같으면 1아니면 0 리턴
  * 여기서 같다는 것은 링크드 리스트의 요소의 같은 노드에 같은 값이면 일치라고 판단 즉 1->2 = 1->2 면 같은 것
  * 문제에서 햇갈리는데 첫번째 라인은 테스트 케이스가 2개라는 것이고 그다음이 첫번째 링크드 리스트의 요소수이다

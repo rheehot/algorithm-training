@@ -3,11 +3,13 @@ package hackerrank.interviewkit.search;
 import java.util.TreeSet;
 
 /**
- * [REMIND]
  * https://www.hackerrank.com/challenges/maximum-subarray-sum
  * https://brokensandals.net/hackerrank-maximum-subarray-sum/
  * kadane's algorithm
  * https://progresivojs.tistory.com/10
+ * [Maximum Subarray Sum]
+ * [HARD]
+ * [REMIND]
  */
 public class MaximumSubarraySum {
 

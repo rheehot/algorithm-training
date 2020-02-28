@@ -3,6 +3,8 @@ package hackerrank.interviewkit.warmup;
 
 /**
  * https://www.hackerrank.com/challenges/repeated-string
+ * [Repeated String]
+ * [EASY]
  *
  * 특정 스트링에 a몇개 있는지 찾는
  * "aab" 라는 스트링이 있다

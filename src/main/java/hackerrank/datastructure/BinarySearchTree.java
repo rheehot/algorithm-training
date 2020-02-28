@@ -3,6 +3,10 @@ package hackerrank.datastructure;
 import hackerrank.Node;
 
 /**
+ * https://www.hackerrank.com/challenges/binary-search-tree-insertion
+ * [Binary Search Tree : Insertion]
+ * [EASY]
+ *
  * 주어진 아이템들을 하나씩 노드를 생성하면서 이진 트리를 만든다
  * 4, 2, 3, 1, 7, 6 의 순서로 아이템을 입력 하면
  * 아래 처럼 이진 트리로 만든다.

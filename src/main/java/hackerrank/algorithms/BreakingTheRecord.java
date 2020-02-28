@@ -1,6 +1,10 @@
 package hackerrank.algorithms;
 
 /**
+ * https://www.hackerrank.com/challenges/breaking-best-and-worst-records
+ * [Breaking the Records]
+ * [EASY]
+ *
  * 마리아는 대학 농구를 하며 프로가 되길 원한다. 매시 그녀는 그녀의 경기를 기록 한다.
  * 그녀는 게임에서 가장높은 점수와 가장 낮은 점수의 시즌기록을 깨는 횟수를 표로 정리한다.
  * 첫 경기에서 득점한 점수로 시즌기록을 세우며 거기에 카운팅합니다.

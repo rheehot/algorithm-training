@@ -6,6 +6,8 @@ import java.util.List;
 
 /**
  * https://www.hackerrank.com/challenges/frequency-queries
+ * [Frequency Queries]
+ * [MEDIUM]
  *
  * 배열 아래와 같이 주어지는 경우 첫번째 요소는 명령타입 두번째 요소는 데이터 이다.
  *

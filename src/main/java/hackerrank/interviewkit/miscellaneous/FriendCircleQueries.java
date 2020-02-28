@@ -1,12 +1,13 @@
 package hackerrank.interviewkit.miscellaneous;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * [MEDIUM] 2시간
  * https://www.hackerrank.com/challenges/friend-circle-queries
+ * [Friend Circle Queries]
+ * [MEDIUM] 2시간
+ *
  * 특정 배열을 주고
  * 1 2
  * 3 4

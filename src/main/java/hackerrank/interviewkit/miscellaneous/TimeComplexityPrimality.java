@@ -2,6 +2,9 @@ package hackerrank.interviewkit.miscellaneous;
 
 /**
  * https://www.hackerrank.com/challenges/ctci-big-o/problem
+ * [Time Complexity: Primality]
+ * [MEDIUM]
+ *
  * 소수(1과 자기자신만으로 나눠지는 수)
  * 소수 판별
  * 판별 과정을 줄이기 위하여

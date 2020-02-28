@@ -16,7 +16,7 @@ public class MergeTwoSortedLinkedListsTest extends LinkedListUtil {
         int[] expected = {1, 2, 3, 3, 4};
 
         //When
-        SinglyLinkedListNode results = MergeTwoSortedLinkedListsUtil.mergeLists(firstLikedList.head, secondLinkedList.head);
+        SinglyLinkedListNode results = MergeTwoSortedLinkedLists.mergeLists(firstLikedList.head, secondLinkedList.head);
 
 
         //Then

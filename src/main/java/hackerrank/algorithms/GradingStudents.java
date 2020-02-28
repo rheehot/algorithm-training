@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * https://www.hackerrank.com/challenges/grading
+ * [Grading Students]
+ * [EASY]
+ *
  * 해커랜드 대학은 다음과 같은 채첨 정책이 있다.
  *  - 모든 학생은 0 부터 100 범위의 성적을 받는다.
  *  - 40 미만 성적은 낙제 등급이다.

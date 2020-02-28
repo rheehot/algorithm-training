@@ -5,6 +5,8 @@ import java.util.stream.IntStream;
 
 /**
  * https://www.hackerrank.com/challenges/angry-children/problem
+ * [Max Min]
+ * [MEDIUM]
  *
  * 4 2 5 3 1  있고 k = 3 이라면
  * 1 2 3 = 3, 1 2 3 = 1, 3 - 1 = 2

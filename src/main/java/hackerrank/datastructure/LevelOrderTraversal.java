@@ -6,6 +6,10 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
+ * https://www.hackerrank.com/challenges/tree-level-order-traversal/
+ * [Tree: Level Order Traversal]
+ * [EASY]
+ *
  * 레벨 탐색
  *     1
  *       \

@@ -4,6 +4,8 @@ import java.util.stream.IntStream;
 
 /**
  * https://www.hackerrank.com/challenges/climbing-the-leaderboard
+ * [Climbing the Leaderboard]
+ * [MEDIUM]
  *
  * 랭킹 보드가 있다
  *

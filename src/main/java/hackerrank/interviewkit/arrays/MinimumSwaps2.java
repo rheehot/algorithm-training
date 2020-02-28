@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 /**
  * https://www.hackerrank.com/challenges/minimum-swaps-2
+ * [Arrays: Left Rotation]
+ * [EASY]
  *
  * 이문제는 LIS 알고리즘이 아니다 햇갈림 주의
  *

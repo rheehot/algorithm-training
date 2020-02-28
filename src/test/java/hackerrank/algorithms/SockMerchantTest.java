@@ -1,6 +1,6 @@
 package hackerrank.algorithms;
 
-import hackerrank.algorithms.SockMerchant;
+import hackerrank.interviewkit.warmup.SockMerchant;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

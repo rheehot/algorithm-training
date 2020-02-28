@@ -4,6 +4,9 @@ import java.util.List;
 
 /**
  * https://www.hackerrank.com/challenges/bon-appetit/problem
+ * [Bon Appetit]
+ * [EASY]
+ *
  */
 public class BonAppetit {
     public static void bonAppetit(List<Integer> bill, int k, int b) {

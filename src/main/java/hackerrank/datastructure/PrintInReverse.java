@@ -2,6 +2,12 @@ package hackerrank.datastructure;
 
 import hackerrank.LinkedListUtil;
 
+/**
+ * https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/
+ * [Print in Reverse]
+ * [EASY]
+ *
+ */
 public class PrintInReverse extends LinkedListUtil {
 
     public static void reversePrint(SinglyLinkedListNode head) {

@@ -3,6 +3,10 @@ package hackerrank.datastructure;
 import hackerrank.Node;
 
 /**
+ * https://www.hackerrank.com/challenges/tree-inorder-traversal/problem?h_r=internal-search
+ * [Tree: Inorder Traversal]
+ * [EASY]
+ *
  * 중위탐색 left -> root -> right
  *
  *   5

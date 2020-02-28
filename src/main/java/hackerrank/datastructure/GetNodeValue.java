@@ -3,6 +3,10 @@ package hackerrank.datastructure;
 import hackerrank.LinkedListUtil;
 
 /**
+ * https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/
+ * [Get Node Value]
+ * [EASY]
+ *
  * tail 로 부터 특정 위치의 값을 가져 온다
  *
  * 예를 들어 1 2 3 4 5 있고 위치가 1 라면 5 -> 4  즉 4이 되는데( index는 0부터 0 1  즉 뒤에서 번째 자리라는 뜻 )

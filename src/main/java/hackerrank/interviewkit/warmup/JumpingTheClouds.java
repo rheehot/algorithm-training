@@ -2,6 +2,8 @@ package hackerrank.interviewkit.warmup;
 
 /**
  * https://www.hackerrank.com/challenges/jumping-on-the-clouds
+ * [Jumping on the Clouds]
+ * [EASY]
  *
  * 0 0 1 0 0 1 0
  *

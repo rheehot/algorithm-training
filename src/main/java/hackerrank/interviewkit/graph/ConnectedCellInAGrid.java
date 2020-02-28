@@ -2,6 +2,8 @@ package hackerrank.interviewkit.graph;
 
 /**
  * https://www.hackerrank.com/challenges/ctci-connected-cell-in-a-grid/
+ * [DFS: Connected Cell in a Grid]
+ * [HARD]
  *
  * 그리드가 주어 지는데 상하좌우대각선으로 연결된 개수가 가장 큰 값을 찾는 문제 기본적으로 DFS 알고리즘을 사용
  * 즉 그래프로 보자면 연결된 노드의 수가 가장 큰 그래프의 노드 개수를 찾는 문제

@@ -8,8 +8,11 @@ import java.util.stream.Collectors;
 import java.util.stream.LongStream;
 
 /**
- * [REMIND]
  * https://www.hackerrank.com/challenges/min-max-riddle
+ * [Min Max Riddle]
+ * [MEDIUM]
+ * [REMIND]
+ *
  * 결국 이해 못함
  * 어렵다.....
  */

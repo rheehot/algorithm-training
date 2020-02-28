@@ -2,6 +2,8 @@ package hackerrank.algorithms;
 
 /**
  * https://www.hackerrank.com/challenges/drawing-book/problem
+ * [Drawing Book]
+ * [EASY]
  */
 public class DrawingBook {
     public static int pageCount(int n, int p) {

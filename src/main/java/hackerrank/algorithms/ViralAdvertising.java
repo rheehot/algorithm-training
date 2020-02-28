@@ -1,5 +1,10 @@
 package hackerrank.algorithms;
 
+/**
+ * https://www.hackerrank.com/challenges/strange-advertising/
+ * [Viral Advertising]
+ * [EASY]
+ */
 public class ViralAdvertising {
     public static int viralAdvertising(int n) {
 

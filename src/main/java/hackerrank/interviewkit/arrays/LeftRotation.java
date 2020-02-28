@@ -3,7 +3,8 @@ package hackerrank.interviewkit.arrays;
 
 /**
  * https://www.hackerrank.com/challenges/ctci-array-left-rotation
- * <p>
+ * [Arrays: Left Rotation]
+ * [EASY]
  * 1 뒤로 보낼 요소의 인덱스는 = 현재 인덱스  + 요소 총 개수 - 뒤로보낼 요소 개수
  * 2 앞으로 당겨온 요소의 인덱스는 = 현재 인덱스 - 뒤로 보낼 요소 개수
  */

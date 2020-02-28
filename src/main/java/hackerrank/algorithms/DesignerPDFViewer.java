@@ -2,6 +2,8 @@ package hackerrank.algorithms;
 
 /**
  * https://www.hackerrank.com/challenges/designer-pdf-viewer/
+ * [Designer PDF Viewer]
+ * [EASY]
  *
  * 특정 배열 a~z 까지 순서대로 각 알파펫의 높이가 주어짐
  * 1, 3, 1, 3, 1, 4, 1, 3, 2, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 7
