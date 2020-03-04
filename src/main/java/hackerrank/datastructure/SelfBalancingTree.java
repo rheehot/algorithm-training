@@ -7,6 +7,8 @@ import java.util.Queue;
  * [Self Balancing Tree]
  * [MEDIUM]
  * [REMIND]
+ *
+ * 이문제는 설명이 너무 어려워서 원문제 설명 참고
  */
 public class SelfBalancingTree {
 

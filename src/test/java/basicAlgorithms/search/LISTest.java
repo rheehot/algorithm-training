@@ -1,5 +1,6 @@
-package basicAlgorithms;
+package basicAlgorithms.search;
 
+import basicAlgorithms.search.LIS;
 import org.junit.Test;
 
 import java.util.Arrays;

@@ -11,8 +11,8 @@ public class MinimumTimeRequiredTest {
     @Test
     public void test() {
         //Given
-        //long[] machines = {2, 3, 2};
-      long[] machines = {1, 3, 4};
+        long[] machines = {2, 3, 2};
+      //long[] machines = {1, 3, 4};
       //  long[] machines = {2, 3};
         //long[] machines = {4, 5, 6};
        //long[] machines = {63, 2, 26, 59, 16, 55, 99, 21, 98, 65};
@@ -22,7 +22,7 @@ public class MinimumTimeRequiredTest {
         long result = MinimumTimeRequired.minTime(machines, coal);
 
         //Then
-        assertEquals(7, result);
+        assertEquals(8, result);
     }
 
     @Test

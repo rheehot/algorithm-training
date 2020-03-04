@@ -1,5 +1,7 @@
 package hackerrank.interviewkit.stringManipulation;
 
+import java.util.Arrays;
+
 /**
  * https://www.hackerrank.com/challenges/common-child
  * [Common Child]
@@ -8,7 +10,7 @@ package hackerrank.interviewkit.stringManipulation;
  * LCS 알고리즘을 사용하면된다
  * 문제 지문이 아주 햇갈린다.
  * 두 문자열에서 공통으로 포함된 문자열은 일단 아니고
- * 두문자열에서 공통으로 포함된 문자열 중에서 가장 긴 문자열의 개수를 찾는 것인데
+ * 두 문자열에서 공통으로 포함된 문자열 중에서 가장 긴 문자열의 개수를 찾는 것인데
  * 이것이 순서가 상관있는지 없는지 아니면 연결이 되어야 하는지 아닌지가 문제 예제에서 파악이 애매하다
  * 그러나 일단 기본적인 LCS 알고리즘을 사용하면 정답이다
  *
@@ -41,20 +43,7 @@ public class CommonChild {
                 }
             }
         }
-
-//        System.out.print("    ");
-//        s1.chars().forEach(v -> System.out.print((char) v+" "));
-//        System.out.println();
-//
-//        for (int i = 0; i <= s1.length(); i++) {
-//              System.out.print(i > 0 ? s2.charAt(i-1) + " " : "  ");
-//
-//            for (int j = 0; j <= s2.length() ; j++) {
-//                System.out.print(arr[i][j]+" ");
-//            }
-//            System.out.println();
-//        }
-
+        Arrays.stream(arr).forEach(v -> System.out.println(Arrays.toString(v)));
         return arr[s1.length()][s2.length()];
 
     }

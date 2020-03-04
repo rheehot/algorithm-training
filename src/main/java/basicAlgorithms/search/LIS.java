@@ -1,4 +1,4 @@
-package basicAlgorithms;
+package basicAlgorithms.search;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -6,6 +6,7 @@ import java.util.Vector;
 
 /**
  * Created by kimchanjung on 2020-02-20 2:33 오후
+ * LIS 최장 증가 부분수열
  */
 public class LIS {
 

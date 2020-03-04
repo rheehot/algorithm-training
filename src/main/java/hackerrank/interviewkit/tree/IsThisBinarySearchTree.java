@@ -7,18 +7,20 @@ import hackerrank.Node;
  * [Trees: Is This a Binary Search Tree?]
  * [MEDIUM]
  *
+ * 이진 트리인지 판변 하는 문제
  */
 public class IsThisBinarySearchTree {
 
-    static boolean check(Node node, int minValue, int maxValue) {
-        if (node == null ) return true;
+
+    public static boolean checkBST(Node root) {
+        return check(0, root, 100000);
+    }
+
+    private static boolean check(int minValue, Node node, int maxValue) {
+        if (node == null) return true;
 
         if (node.data <= minValue || node.data >= maxValue) return false;
 
-        return check(node.left, minValue, node.data ) && check(node.right, node.data, maxValue);
-    }
-
-    public static boolean checkBST(Node root) {
-        return check(root, 0, 100000);
+        return check(minValue, node.left, node.data) && check(node.data, node.right, maxValue);
     }
 }

@@ -6,33 +6,34 @@ import hackerrank.TreeUtil;
 /**
  * https://www.hackerrank.com/challenges/swap-nodes-algo
  * [Swap Nodes [Algo]]
- * [MEDIUM]
+ *  [MEDIUM]
  * [REMIND]
  *
- * 이진 트리의 특정 레벨을 좌, 우 를 변경하는 것이 목표
+ * 이진 트리의 특정 레벨의 자식의 좌우를 변경한다.
+ * 그리고 특정레벨의 배수의 자식의 좌우를 모두 변경한다.
+ * 레벨 2의 자식 좌우를 변경한다고 하면
+ * 2   4   6.. 즉
+ *   3   5    7 -> 해당하는 레벨의 노드의 좌우를 변경하는 것이다.
  *
- * 주어진 값이 트리가 아니고 배열이다 그래서 좀 햇갈리는데
+ * 입력값 설명
+ * 5     -> 노드를 구성하는 배열의 개수
+ * 2 3   -
+ * -1 4
+ * -1 5    |  -> 노드를 구성하는 배열 정보
+ * -1 -1
+ * -1 -1 -
+ * 1     -> 해당 레벨과 배수의 모든 자식을 변경할 레벨 정보의 개수
+ * 2     -> 자식을 변경할 노드 정
  *
- *  5 : 다음 라인의 5개가 노드들이라는 이야기
- *
- *  아래 데이터가 2차원 배열로 주어진다. 물론 root 1이고 그다음 부터 데이터 이다.
- *  첫번째 데이터는 (2, -1..) 왼쪽, 두번째 데이터(3,4..) 오른쪽 이다
- *
- *  그리고 중요한 것이 2의 자식은 배열에서 어딜까? 주어지는 법직이 데이터 값에 1을 뺀 수가 자식의 인덱스가 된다 즉
- *  2 - 1 = 1  -> 배열에서 1번 배열 에 있는 값 -1, 4 가 2의 자식 왼쪽 -1(null), 오른족 4가 된다
- *  3 - 1 = 2  -> 마찬 가지고 -1, 4가 된다
- *
- *
- *  2  3    index 0
- * -1  4    index 1 <-  2 - 1 = 1의 자리에 값이고 2의 자식이다.
+ *  2  3    index 0 -> 2의 자식은 어떤 값일까? 2 값 자체가 해당 배열의 인덱스 -1 에 있는 값이 자식이 된다. -1, 4 2의 자식이 된다.
+ *                  -> 3의 자식은 3-1  2의 위치에 있는 -1, 5가 자식이 된다.
+ * -1  4    index 1
  * -1  5    index 2
  * -1 -1    index 3
  * -1 -1    index 4
  *
- *  1 -> 쿼리의 개수
- *  2 -> 2는 2번째 레벨의 자식노드의 좌우를 변경한다. 이게 레벨이 0 또는 1 부터 시작하느냐에 따라 순서가 달라지니 조심!! 설명에서는 root가 level 1부터 시
- *
- *  트리로 표현하면
+ *  트리로 표현하면 루트 노드 정보는 없다. 배열로 주어진 노드 정보 첫번째가 루트의 자식이 며
+ *  레벨 2부터 시작이라고 보면 된다. -1은 null 값이다.
  *
  *        1
  *    2        3
@@ -82,7 +83,7 @@ public class SwapNodes {
     public static Node createTree(int data, int level, int[][] indexes) {
 
         Node node = new Node(data, level);
-
+        // 해당노드 값에 -1 index 에 위치한 값들이 해당 노드의 자식이 된다.
         int[] nodeValues = indexes[data - 1];
 
         if (nodeValues[0] != -1) {
@@ -101,8 +102,11 @@ public class SwapNodes {
         if (node == null) return null;
 
 
-        // 설명이 햇갈리는데 쿼리에 해당하는 레벨의 자식만 변경하는 것이 아니고 배수에 해당하는 레벨이 자식도 모두 변경한다.
-        // 쿼리가 2 이면 레벨 2의 자식 , 레벨 4의 자식 ... 끝까지 변경, 그래서 그래서 레벨에 쿼리를 나눈 나머지가 없는 레벨의 노드는 좌우 변
+        /**
+         * 설명이 햇갈리는데 쿼리에 해당하는 레벨의 자식만 변경하는 것이 아니고 배수에 해당하는 레벨이 자식도 모두 변경한다.
+         * 쿼리가 2 이면 레벨 2의 자식 , 레벨 4의 자식 ... 끝까지 변경,
+         * 그래서 그래서 레벨에 쿼리를 나눈 나머지가 없는 레벨의 노드는 좌우 변한다.
+         */
         if (node.level % query == 0) {
             System.out.println("level = " +node.level+", data = "+ TreeUtil.getData(node) +", query = "+query);
             Node right = node.right;
@@ -133,10 +137,10 @@ public class SwapNodes {
         Node node = createTree(1, 1, indexes);
 
         for (int i = 0; i < queries.length; i++) {
-            swap(node, queries[i]);
-            inOrder(node, result[i]);
+            swap(node, queries[i]); // 좌우 변경하고
+            inOrder(node, result[i]); // 출력할 값은 전위 탐색한 결과를 배열담은 값을 출력하는 것
             count = 0;
-        }
+       }
 
         return result;
     }

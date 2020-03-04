@@ -4,11 +4,12 @@ package hackerrank.interviewkit.arrays;
  * https://www.hackerrank.com/challenges/new-year-chaos
  * [New Year Chaos]
  * [MEDIUM]
- * 1 2 3 4 5
- * 2 1 5 3 4
+ * 1 2 3 4 5 index
+ * 2 1 5 3 4 주어진 요
  *
- * 5는 2번 이동
- * 2는 1번 이동 총 3번 이동이다
+ * 5는 원래 5번째 index에서 => 2번 이동
+ * 2는 원래 1번째 index에서 -> 1번 이동
+ * 총 3번
  *
  * 2 5 1 3 4
  * 5 가 3번 이동이다 그러면 Too chaotic 출력한다.
@@ -34,6 +35,7 @@ public class NewYearChaos {
         int next = q.length;
 
         for (int i = q.length - 1; i >= 0 ; i--) {
+
             if (q[i] - i > 3) {
                 result = "Too chaotic";
                 break;

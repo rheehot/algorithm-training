@@ -9,7 +9,8 @@ public class AbbreviationTest {
     @Test
     public void test() {
 
-       assertEquals("NO", Abbreviation.abbreviation("CaaBa", "BAAA"));
+       //assertEquals("NO", Abbreviation.abbreviation("CaaBa", "BAAA"));
+        assertEquals("NO", Abbreviation.abbreviation("daBcd", "ABC"));
 
     }
 }
